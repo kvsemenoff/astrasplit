@@ -3,6 +3,7 @@ var css_our = new Array(
 	'css/reset.css',
 	'css/fonts.css',
 	'css/style.css',
+	'popup.css',
 	'block/breadcrumps/style.css',
 	'block/button/style.css',
 	'block/call/style.css',
@@ -44,6 +45,7 @@ var scss_our = new Array(
 	'css/reset.scss',
 	'css/fonts.scss',
 	'css/style.scss',
+    'popup.scss',
 	'block/breadcrumps/style.scss',
 	'block/button/style.scss',
 	'block/call/style.scss',
@@ -82,6 +84,7 @@ var scss_our = new Array(
 );
 var css_libs = new Array(
 	'libs/bootstrap/bootstrap-grid-3.3.1.min.css',
+	'libs/font-awesome/font-awesome.min.css',
 	'libs/fancybox/jquery.fancybox.css',
 	'libs/owl.carousel/assets/owl.carousel.css'
 );
@@ -93,17 +96,15 @@ var css_style_name = 'style.min.css';
 
 //файлы js-скриптов
 var js_our = new Array(
-	'js/fonts.js',
-	'js/common.js',
-	'js/cart.js',
-	'js/script-dg.js'
+	'js/popup.js',
+	'js/common.js'
 );
 var js_libs = new Array(
 	'libs/jquery/jquery-1.11.1.min.js',
 	'libs/owl.carousel/owl.carousel.js',
 	'libs/fancybox/jquery.fancybox.pack.js',
 	'js/jquery.maskedinput.min.js',
-	'js/jquery.formstyler.min.js'
+	'js/responsiveTabs.js'
 );
 var js_all = js_libs.concat(js_our);
 
@@ -319,9 +320,9 @@ gulp.task('zip', () =>
 gulp.task('ftp', function () {
     return gulp.src('product/archive.zip')
         .pipe(ftp({
-            host: '77.222.62.138',
-            user: 'kvsemen158',
-            pass: '5d0trEqKM',
+            host: '77.222.57.247',
+            user: 'tokmakovi3',
+            pass: 'qwerty1234',
             remotePath: '/public_html/'
         }))
         // you need to have some kind of stream after gulp-ftp to make sure it's flushed 
