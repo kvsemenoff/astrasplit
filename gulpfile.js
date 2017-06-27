@@ -97,7 +97,8 @@ var css_style_name = 'style.min.css';
 //файлы js-скриптов
 var js_our = new Array(
 	'js/popup.js',
-	'js/common.js'
+	'js/common.js',
+	'js/outer.js'
 );
 var js_libs = new Array(
 	'libs/jquery/jquery-1.11.1.min.js',
