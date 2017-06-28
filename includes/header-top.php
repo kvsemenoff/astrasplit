@@ -35,6 +35,7 @@
             </div>
         </div>
         <div class="header_menu">
+            <a href="#" class="close_btn"></a>
             <nav>
                 <ul class="header_menu__list">
                     <li class="header_menu__item"><a href="#" class="header_menu__link arrowed active_link">Сплит

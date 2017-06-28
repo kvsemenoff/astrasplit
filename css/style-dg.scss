@@ -43,13 +43,15 @@
   }
 }
 .header_menu__link {
+  border-bottom: 1px solid rgb(238, 238, 238);
+  width: 100%;
   display: inline-block;
   font-family: "Arsenal";
   font-size: 18px;
   font-weight: 700;
   line-height: 18px;
   color: #333;
-  padding: 16px 0;
+  padding: 12px 0;
   &:hover {
     background-color: #fdec6b;
     transition: .5s;
@@ -77,12 +79,20 @@
 }
 .header_menu__link.arrowed:after {
   content: '';
-  margin-left: 4px;
-  margin-bottom: 3px;
-  display: inline-block;
+  position: absolute;
+  background: url(/img/main_arrow.png) 0 0 no-repeat;
   width: 9px;
   height: 6px;
-  background: url(/img/main_arrow.png) 0 0 no-repeat;
+  top: 18px;
+  right: 50px;
+  @media screen and (min-width: 1200px) {
+    position: relative;
+    margin-left: 4px;
+    margin-bottom: 3px;
+    display: inline-block;
+    right: 15px;
+    top: 25px;
+  }
 }
 .header_menu__link.active_link {
   @media screen and (min-width: 1200px) {
@@ -93,6 +103,23 @@
     }
   }
 }
+.header_menu {
+  position: absolute;
+  background: #fff;
+  z-index: 9999;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 38px 0 20px 0;
+}
+.close_btn {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: url(/img/close_btn.png) 0 0 no-repeat;
+}
 .connector {
   display: none;
   position: absolute;
@@ -102,6 +129,12 @@
 }
 .header_menu__item {
   display: block;
+  position: relative;
+  padding-left: 35px;
+  padding-right: 35px;
+  &:last-child{
+    border: 0;
+  }
   &:nth-child(1) a {
     @media screen and (min-width: 1200px) {
       padding: 16px 10px 16px 20px;
@@ -121,8 +154,10 @@
     }
   }
   &:nth-child(3):hover {
-    .header_submenu, .connector {
-      display: block;
+    @media screen and (min-width: 1200px) {
+      .header_submenu, .connector {
+        display: block;
+      }
     }
   }
   &:nth-child(3) {
@@ -130,35 +165,48 @@
   }
   @media screen and (min-width: 1200px) {
     display: inline-block;
+    border: 0;
+    padding: 0;
   }
 }
 .header_submenu {
-  display: none;
-  width: 308px;
-  padding: 14px 29px 20px 29px;
-  position: absolute;
-  top: 55px;
+  display: block;
+  width: 100%;
   background-color: #fff;
-  box-shadow: 0 0 3px rgba(69, 65, 64, 0.35);
-  border-bottom: 3px solid #434040;
-  z-index: 9999;
+  @media screen and (min-width: 1200px) {
+    display: none;
+    width: 308px;
+    padding: 14px 29px 20px 29px;
+    position: absolute;
+    top: 55px;
+    background-color: #fff;
+    box-shadow: 0 0 3px rgba(69, 65, 64, 0.35);
+    border-bottom: 3px solid #434040;
+    z-index: 9999;
+  }
 }
 .header_submenu__link {
+  width: 100%;
   display: inline-block;
   font-family: "Arsenal";
   font-size: 16px;
-  line-height: 35px;
+  line-height: 24px;
   font-weight: 400;
   color: #333;
   &:hover {
     color: #298fde;
     transition: .2s;
   }
+  @media screen and (min-width: 1200px) {
+    line-height: 36px;
+  }
 }
 .header_submenu__item {
-  border-bottom: 1px solid rgb(238, 238, 238);
   &:last-child {
     border: 0;
+  }
+  @media screen and (min-width: 1200px) {
+    border-bottom: 1px solid rgb(238, 238, 238);
   }
 }
 .header_schedule__descr {
