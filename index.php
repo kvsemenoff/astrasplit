@@ -9,6 +9,7 @@
 	<div class="wrapper">
 		<div class="content">
 			<?php require_once('includes/popular.php'); ?> 
+			<?php require_once('includes/main-news.php'); ?>
 		</div>
 		<div class="footer">
 			<?php require_once('includes/footer.php'); ?> 
