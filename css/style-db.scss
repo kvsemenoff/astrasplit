@@ -37,6 +37,10 @@
 					background-color: #298fde;
 					opacity: 0.9;
 				}
+				p, button{
+					position: relative;
+					z-index: 1000;
+				}
 			}
 			margin-top: 20px;
 			position: relative;
