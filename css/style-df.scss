@@ -92,3 +92,34 @@
 		color: #666666;
 	}
 }
+
+// styles rangeslider
+
+.rangeslidr{
+	position: relative;
+	max-width: 250px;
+	width: 100%;
+}
+.irs-line, .irs-line-left, .irs-line-mid, .irs-line-right, .irs-bar{
+	height: 6px;
+}
+.irs-slider{
+	background-position: initial;
+}
+.irs-slider.state_hover, .irs-slider:hover{
+	background-position: initial;
+}
+.irs-bar{
+	background-position: initial;
+	background:url("../img/rangebg.png") repeat-x center !important;
+}
+.irs-line-mid, .irs-line-left, .irs-line-right, .irs-bar, .irs-bar-edge, .irs-slider{
+	background: #f5f6f8;
+}
+.irs-slider{
+	background: #ffc000;
+	width: 9px;
+	height: 27px;
+	top: 15px;
+}
+/////////////////////////////////////////
