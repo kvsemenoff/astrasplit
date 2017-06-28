@@ -2,6 +2,7 @@ $ff:'ArsenalRegular', sans-serif;
 $a-c: #333333;
 $a-c-a: #298fde;
 .wrap-footer-di{
+	padding-bottom: 30px;
 	background-color: #eceeec;
 	.wrap-footer-content-di{
 		font-family: $ff;
@@ -30,8 +31,51 @@ $a-c-a: #298fde;
 			}
 		}
 		.two-di{
-			margin-top: 60px; 
+			margin-top: 63px; 
 		}
+		.wrap-thridcol-di{
+			img{
+				width: 100%;
+  				height: auto;
+  				display: inline-block;
+			}
+			.f-phone-di{
+				margin-top: 35px; 
+			}
+			strong{
+				color: $a-c; 
+			}
+		}
+		.f-somet-di{
+			margin-top: 47px;
+			span{
+				font-family: 'ArialRegular', sans-serif;
+				font-size: 14px;
+				color: #666;
+				text-transform: none; 
+			}
+		}
+	}
+}
+.wrap-dfooter-di{
+	background-color: #555454;
+	span{
+		color: #eceeec;
+		font-size: 14px;
+	}
+	.df-di{
+		padding: 20px 0;
+	}
+	img{
+		width: 100%;
+  		height: auto;
+  		display: inline-block;
+	}
+	.rdf-di{
+		display: inline-block;
+		text-transform: uppercase;
+		color: #E4E6E4;
+		font-size: 12px; 
 	}
 }
 @media only screen and (min-width : 320px) {
@@ -44,6 +88,10 @@ $a-c-a: #298fde;
 }
 
 @media only screen and (min-width : 992px) {
+	.wrap-rdf-di{
+		margin-right: 20%;
+	}
+	
 }
 
 @media only screen and (min-width : 1248px) {
