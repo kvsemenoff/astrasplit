@@ -60,4 +60,28 @@ $(document).ready(function(){
 		$(this).parent('.tovar-item__buttons').prev('.tovar-item__characteristic').slideToggle(300);
 	});
 
+	$('.leftsidebar__box .leftsidebar__cap').on('click', function(event) {
+		event.preventDefault();
+		$(this).next('.leftsidebar__block').slideToggle();
+		$(this).toggleClass('leftsidebar__cap_active');
+	});
+
+
+	$("#range").ionRangeSlider({
+		hide_min_max: true,
+		hide_from_to:true,
+		keyboard: true,
+		min: 1000,
+		max: 50500,
+		from: 1344,
+		to: 50500,
+		type: 'double',
+		step: 10,
+		prefix: "",
+		grid: false,            
+		onChange:  function (data) {			
+			$('.sidebarchangeprice').val(data.from);
+			$('.sidebartotalprice').val(data.to);			
+		},
+	});
 });
