@@ -35,10 +35,15 @@
 					top: 0;
 					left: 0;
 					background-color: #298fde;
-					opacity: 0.9;
+					opacity: 0.7;
+				}
+				p, button{
+					position: relative;
+					z-index: 1000;
 				}
 			}
 			margin-top: 20px;
+			text-align: center;
 			position: relative;
 			&:first-child{
 				margin-left: 0px;
@@ -62,7 +67,7 @@
 			button{
 				font-size: 18px;
 				font-weight: 400;
-				line-height: 32px;
+				line-height: 30px;
 				height: 32px;
 				padding: 0px 26px;
 				text-transform: uppercase;

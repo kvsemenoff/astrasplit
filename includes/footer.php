@@ -96,3 +96,5 @@
 <script src="js/popup.js"></script>
 <script src="js/common.js"></script>
 <!-- scripts end -->
+</body>
+</html>
