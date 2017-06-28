@@ -13,6 +13,20 @@
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/popup.css">
+	<link rel="stylesheet" href="block/a/style.css">
+	<link rel="stylesheet" href="block/button/style.css">
+	<link rel="stylesheet" href="block/checkbox/style.css">
+	<link rel="stylesheet" href="block/h1/style.css">
+	<link rel="stylesheet" href="block/h2/style.css">
+	<link rel="stylesheet" href="block/h3/style.css">
+	<link rel="stylesheet" href="block/h4/style.css">
+	<link rel="stylesheet" href="block/input/style.css">
+	<link rel="stylesheet" href="block/ol/style.css">
+	<link rel="stylesheet" href="block/search-form/style.css">
+	<link rel="stylesheet" href="block/table/style.css">
+	<link rel="stylesheet" href="block/textarea/style.css">
+	<link rel="stylesheet" href="block/tovar-item/style.css">
+	<link rel="stylesheet" href="block/ul/style.css">
 	<link rel="stylesheet" href="css/style-db.css">
 	<link rel="stylesheet" href="css/style-dc.css">
 	<link rel="stylesheet" href="css/style-dd.css">
