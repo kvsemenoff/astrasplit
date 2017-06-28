@@ -1,5 +1,6 @@
 <div class="container">
 	<div class="content-wrapper">
+
 		<div class="leftsidebar">
 			<div class="leftsidebar__box">
 				<span class="leftsidebar__cap">Производители</span>
@@ -178,17 +179,230 @@
 						<span class="checkbox__label-yellow">Да (52)</span>
 					</label>
 				</div>
-			</div>
-			
+			</div>			
 			<div class="leftsidebar__button">
 				<a href="#">применить</a>
 			</div>
-
-
-
-
-
+		</div>
+	
+		<div class="rightcontent">
+			<div class="tovar-item">
+				<span class="tovar-item__sale">-50%</span>
+				<span class="tovar-item__saletxt">Скидка</span>
+				<div class="tovar-item__img">
+					<img src="img/tovar-item1.jpg" alt="">
+				</div>
+				<div class="tovar-item__txtbox">
+					<a href="#" class="tovar-item__name">Сплит система ANTARKTIK MF07AC-CH</a>
+					<div class="tovar-item__pricebox">
+						<span class="tovar-item__oldprice">3 600 р.</span>
+						<span class="tovar-item__newprice">2 200 р.</span>
+					</div>
+					<ul class="tovar-item__characteristic">
+						<li>Современный внутренний блок с глянцевая лицевой панелью </li>
+						<li>Современный роторный компрессор </li>
+						<li>Низкий уровень шума </li>
+						<li>Работают на охлаждение от +21С и на обогрев до -7С </li>
+						<li>Воздушные фильтры </li>
+					</ul>
+					<div class="tovar-item__buttons">
+						<a href='#' class='button button_tranparent'>подробнее</a>
+						<a href='#' class='button button_yellow'>заказать</a>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+			<div class="tovar-item">
+				<span class="tovar-item__new">Новинка</span>
+				<span class="tovar-item__hit">ХИТ ПРОДАЖ</span>
+				<div class="tovar-item__img">
+					<img src="img/tovar-item2.jpg" alt="">
+				</div>
+				<div class="tovar-item__txtbox">
+					<a href="#" class="tovar-item__name">Сплит система ANTARKTIK MF07AC-CH</a>
+					<div class="tovar-item__pricebox">						
+						<span class="tovar-item__newprice">12 200 р.</span>
+					</div>
+					<ul class="tovar-item__characteristic">
+						<li>Современный внутренний блок с глянцевая лицевой панелью </li>
+						<li>Современный роторный компрессор </li>
+						<li>Низкий уровень шума </li>
+						<li>Работают на охлаждение от +21С и на обогрев до -7С </li>
+						<li>Воздушные фильтры </li>
+					</ul>
+					<div class="tovar-item__buttons">
+						<a href='#' class='button button_tranparent'>подробнее</a>
+						<a href='#' class='button button_yellow'>заказать</a>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+			<div class="tovar-item">
+				<span class="tovar-item__new">Новинка</span>
+				<div class="tovar-item__img">
+					<img src="img/tovar-item3.jpg" alt="">
+				</div>
+				<div class="tovar-item__txtbox">
+					<a href="#" class="tovar-item__name">Сплит система ANTARKTIK MF07AC-CH</a>
+					<div class="tovar-item__pricebox">						
+						<span class="tovar-item__newprice">12 200 р.</span>
+					</div>
+					<ul class="tovar-item__characteristic">
+						<li>Современный внутренний блок с глянцевая лицевой панелью </li>
+						<li>Современный роторный компрессор </li>
+						<li>Низкий уровень шума </li>
+						<li>Работают на охлаждение от +21С и на обогрев до -7С </li>
+						<li>Воздушные фильтры </li>
+					</ul>
+					<div class="tovar-item__buttons">
+						<a href='#' class='button button_tranparent'>подробнее</a>
+						<a href='#' class='button button_yellow'>заказать</a>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>	
+			<div class="tovar-item">
+				<span class="tovar-item__new">Новинка</span>
+				<div class="tovar-item__img">
+					<img src="img/tovar-item3.jpg" alt="">
+				</div>
+				<div class="tovar-item__txtbox">
+					<a href="#" class="tovar-item__name">Сплит система ANTARKTIK MF07AC-CH</a>
+					<div class="tovar-item__pricebox">						
+						<span class="tovar-item__newprice">12 200 р.</span>
+					</div>
+					<ul class="tovar-item__characteristic">
+						<li>Современный внутренний блок с глянцевая лицевой панелью </li>
+						<li>Современный роторный компрессор </li>
+						<li>Низкий уровень шума </li>
+						<li>Работают на охлаждение от +21С и на обогрев до -7С </li>
+						<li>Воздушные фильтры </li>
+					</ul>
+					<div class="tovar-item__buttons">
+						<a href='#' class='button button_tranparent'>подробнее</a>
+						<a href='#' class='button button_yellow'>заказать</a>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>				
+			<div class="tovar-item">
+				<span class="tovar-item__new">Новинка</span>
+				<div class="tovar-item__img">
+					<img src="img/tovar-item3.jpg" alt="">
+				</div>
+				<div class="tovar-item__txtbox">
+					<a href="#" class="tovar-item__name">Сплит система ANTARKTIK MF07AC-CH</a>
+					<div class="tovar-item__pricebox">						
+						<span class="tovar-item__newprice">12 200 р.</span>
+					</div>
+					<ul class="tovar-item__characteristic">
+						<li>Современный внутренний блок с глянцевая лицевой панелью </li>
+						<li>Современный роторный компрессор </li>
+						<li>Низкий уровень шума </li>
+						<li>Работают на охлаждение от +21С и на обогрев до -7С </li>
+						<li>Воздушные фильтры </li>
+					</ul>
+					<div class="tovar-item__buttons">
+						<a href='#' class='button button_tranparent'>подробнее</a>
+						<a href='#' class='button button_yellow'>заказать</a>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>	
+			<div class="tovar-item">
+				<div class="tovar-item__img">
+					<img src="img/tovar-item4.jpg" alt="">
+				</div>
+				<div class="tovar-item__txtbox">
+					<a href="#" class="tovar-item__name">Сплит система ANTARKTIK MF07AC-CH</a>
+					<div class="tovar-item__pricebox">						
+						<span class="tovar-item__newprice">12 200 р.</span>
+					</div>
+					<ul class="tovar-item__characteristic">
+						<li>Современный внутренний блок с глянцевая лицевой панелью </li>
+						<li>Современный роторный компрессор </li>
+						<li>Низкий уровень шума </li>
+						<li>Работают на охлаждение от +21С и на обогрев до -7С </li>
+						<li>Воздушные фильтры </li>
+					</ul>
+					<div class="tovar-item__buttons">
+						<a href='#' class='button button_tranparent'>подробнее</a>
+						<a href='#' class='button button_yellow'>заказать</a>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+			<div class="tovar-item">
+				<div class="tovar-item__img">
+					<img src="img/tovar-item5.jpg" alt="">
+				</div>
+				<div class="tovar-item__txtbox">
+					<a href="#" class="tovar-item__name">Сплит система ANTARKTIK MF07AC-CH</a>
+					<div class="tovar-item__pricebox">						
+						<span class="tovar-item__newprice">12 200 р.</span>
+					</div>
+					<ul class="tovar-item__characteristic">
+						<li>Современный внутренний блок с глянцевая лицевой панелью </li>
+						<li>Современный роторный компрессор </li>
+						<li>Низкий уровень шума </li>
+						<li>Работают на охлаждение от +21С и на обогрев до -7С </li>
+						<li>Воздушные фильтры </li>
+					</ul>
+					<div class="tovar-item__buttons">
+						<a href='#' class='button button_tranparent'>подробнее</a>
+						<a href='#' class='button button_yellow'>заказать</a>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+			<div class="tovar-item">
+				<div class="tovar-item__img">
+					<img src="img/tovar-item6.jpg" alt="">
+				</div>
+				<div class="tovar-item__txtbox">
+					<a href="#" class="tovar-item__name">Сплит система ANTARKTIK MF07AC-CH</a>
+					<div class="tovar-item__pricebox">						
+						<span class="tovar-item__newprice">12 200 р.</span>
+					</div>
+					<ul class="tovar-item__characteristic">
+						<li>Современный внутренний блок с глянцевая лицевой панелью </li>
+						<li>Современный роторный компрессор </li>
+						<li>Низкий уровень шума </li>
+						<li>Работают на охлаждение от +21С и на обогрев до -7С </li>
+						<li>Воздушные фильтры </li>
+					</ul>
+					<div class="tovar-item__buttons">
+						<a href='#' class='button button_tranparent'>подробнее</a>
+						<a href='#' class='button button_yellow'>заказать</a>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>	
+			<div class="tovar-item">
+				<div class="tovar-item__img">
+					<img src="img/tovar-item3.jpg" alt="">
+				</div>
+				<div class="tovar-item__txtbox">
+					<a href="#" class="tovar-item__name">Сплит система ANTARKTIK MF07AC-CH</a>
+					<div class="tovar-item__pricebox">						
+						<span class="tovar-item__newprice">12 200 р.</span>
+					</div>
+					<ul class="tovar-item__characteristic">
+						<li>Современный внутренний блок с глянцевая лицевой панелью </li>
+						<li>Современный роторный компрессор </li>
+						<li>Низкий уровень шума </li>
+						<li>Работают на охлаждение от +21С и на обогрев до -7С </li>
+						<li>Воздушные фильтры </li>
+					</ul>
+					<div class="tovar-item__buttons">
+						<a href='#' class='button button_tranparent'>подробнее</a>
+						<a href='#' class='button button_yellow'>заказать</a>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>	
 
 		</div>
+		<div class="clearfix"></div>
 	</div>
 </div>
