@@ -29,6 +29,9 @@
 				</div>
 				<div class="col-md-3">
 					<span>Контакты</span>
+						<div class="wrap-thridcol-di">
+							<img src="../img/f-phone-di.png" alt="" class="phone">
+						</div>
 				</div>
 				<div class="col-md-4"></div>
 			</div>
