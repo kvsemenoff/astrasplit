@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="wrap-footer-content-di">
 				<div class="col-md-3 col-xs-7">
-					<span>Информация</span>
+					<span class=" upspan-di">Информация</span>
 					<div class="wrap-ul-di">
 						<ul>
 							<li><a href="">Сплит системы</a></li>
@@ -28,21 +28,30 @@
 					</div>
 				</div>
 				<div class="col-md-3 col-xs-12">
-					<span>Контакты</span>
+					<span class="f-md-di upspan-di">Контакты</span>
 					<div class="wrap-thridcol-di">
-						<img src="../img/f-email-di.png" alt="Image" class="f-phone-di">
-						<span>+7 (8512) <strong>72-11-71</strong><br>
+						<img src="img/f-phone-di.png" alt="Image" class="f-phone-di">
+						<div class="phs-di">
+							<span>+7 (8512) <strong>72-11-71</strong><br>
 							+7 (912) <strong>822-28-38</strong></span>
 						</div>
-						<div class="mail">
-							<img src="../img/f-email-di.png" alt="email">
+						
+						<div class="mail-di">
+							<img src="img/f-email-di.png" alt="email" class="f-email-di">
 							<div class="content-part">
 							<a href="">seregabrt@mail.ru</a>
 							</div>
 						</div>
+						<div class="pointer-di">
+							<img src="img/f-pointer-di.png" alt="pointer" class="f-pointer-di">
+							<div class="wrap-pointer-di">
+								<a href="">г. Астрахань, ул. Зеленая 1, корп. 1</a>
+							</div>
+						</div>
+					</div>
 					</div>
 					<div class="col-md-4 f-md-di">
-						<span>Компания Астра Сплит</span>
+						<span class=" upspan-di">Компания Астра Сплит</span>
 						<div class="f-somet-di">
 							<span>Компания на протяжении уже 10 лет занимается 
 								продажей, обслуживанием, установкой, монтажем сплит-систем и кондиционеров. Мы предлагаем отличный сервсис услуг.<br><br>
@@ -63,7 +72,7 @@
 			</div>
 			<div class="col-md-6 col-xs-12">
 					<div class="wrap-rdf-di">
-						<img src="../img/f_logo_di.png" alt="img">
+						<img src="img/f_logo_di.png" alt="img">
 					<span class="rdf-di"><strong>создание сайта</strong> - контакт плюс</span>
 					</div>
 			</div>
