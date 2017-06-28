@@ -60,7 +60,11 @@ $(document).ready(function(){
 		$(this).parent('.tovar-item__buttons').prev('.tovar-item__characteristic').slideToggle(300);
 	});
 
-
+	$('.leftsidebar__box .leftsidebar__cap').on('click', function(event) {
+		event.preventDefault();
+		$(this).next('.leftsidebar__block').slideToggle();
+		$(this).toggleClass('leftsidebar__cap_active');
+	});
 
 
 	$("#range").ionRangeSlider({
