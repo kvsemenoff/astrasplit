@@ -1,6 +1,7 @@
 
 	<link rel="shortcut icon" href="favicon.png" />
 
+	<!-- styles start -->
 	<link rel="stylesheet" href="css/reset.css" />
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
 	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
@@ -10,10 +11,8 @@
     <link rel="stylesheet" href="libs/rangeslider/ion.rangeSlider.skinFlat.css" />	
     <link rel="stylesheet" href="libs/select/selectric.css">
 	<link rel="stylesheet" href="css/fonts.css">
-
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/popup.css">
-
 	<link rel="stylesheet" href="css/style-db.css">
 	<link rel="stylesheet" href="css/style-dc.css">
 	<link rel="stylesheet" href="css/style-dd.css">
@@ -23,5 +22,6 @@
 	<link rel="stylesheet" href="css/style-dh.css">
 	<link rel="stylesheet" href="css/style-di.css">
 	<link rel="stylesheet" href="css/style-dj.css">
+	<!-- styles end -->
 	
 
