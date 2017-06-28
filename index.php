@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Главная</title>
 	<?php require_once('includes/header.php'); ?>
+<body>
 	<div class="wrapper">
 		<div class="content">
 			

@@ -1,2 +1,27 @@
+<<<<<<< HEAD
 body,html{height:100%;font-family:'Arsenal', sans-serif;color:#333;font-size:14px}.wrapper{display:flex;flex-direction:column;height:100%}.content{flex:1 0 auto}.footer{flex:0 0 auto}.vertical-align{vertical-align:middle}
+=======
+body, html {
+  height: 100%; }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%; }
+
+.content {
+  flex: 1 0 auto; }
+
+.footer {
+  flex: 0 0 auto; }
+
+.vertical-align {
+  vertical-align: middle; }
+
+body {
+  font-family: 'ArialRegular', sans-serif;
+  color: #333;
+  font-size: 14px; }
+
+>>>>>>> d7b9cf9257592c48b7ce5982c94136f7ceb56ec7
 /*# sourceMappingURL=style.css.map */
