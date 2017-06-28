@@ -1,7 +1,8 @@
 <div class="container">
 	<div class="content-wrapper">
-
+		<h1>Часто покупают</h1>
 		<div class="leftsidebar">
+			<span class="leftsidebar__mobilebutton">Подберите сплит-систему</span>
 			<div class="leftsidebar__box">
 				<span class="leftsidebar__cap">Производители</span>
 				<div class="leftsidebar__block">

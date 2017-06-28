@@ -1,49 +1,146 @@
-.mask{
-	position: fixed;
-	background: #000;
-	top: 0;
-	left: 0;
-	opacity: 0.5;
-	width: 100%;
-	height: 100%;
-	z-index: 999;
-}
-.modal-close{
-	cursor: pointer;
-	position: absolute;
-	display: block;
-	top: 10px;
-	right: 10px;
-}
-.modal-window{
-	z-index: 1000;
-	position: fixed;
-	top:0;
-	left:0px;
-	background: #fff;
-	display: none;
-	width: 100%;
-	height: 100%;
-	margin: 0 auto;
-	padding: 20px;
-	@media screen and (min-width: 800px) {
-		width: 590px;
-		height: auto;
-	}
-	.popup-title{
+.mask {
+  position: fixed;
+  background: #000;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  z-index: 999; }
 
-	}
+.modal-close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  top: 10px;
+  right: 10px; 
+  background-image:url(../img/remove_icon.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  width:18px;
+  height:18px;
+  z-index:5;
+  }
 
+.modal-window {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0px;
+  background: #fff;
+  display: none;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  font-family:'Arsenal', sans serif;}
+  @media screen and (min-width: 800px) {
+    .modal-window {
+      width: 555px;
+      height: auto; } }
+
+#thanks {
+  text-align: center; }
+  #thanks .popup-title {
+    margin-top: 20px; }
+
+.popup-title {
+  width:525px;
+  float:left;
+  padding:15px 15px 25px 15px;
+  background-repeat:no-repeat;
+  background-size:cover;
+  text-align:center;
+  position:relative;
 }
-#thanks{
-	text-align: center;
-	.popup-title{
-		margin-top: 20px;
-	}
-	
+
+#order_call .popup-title{
+	background-image:url(../img/get-call-bg.jpg);
+	 color: #24242d;
 }
-.popup-title{
-	color: #24242d;
-	font-size: 24px;
-	padding-bottom: 18px;
+
+#send_prop .popup-title{
+	background-image:url(../img/popup-bg1.jpg);
+	color:white;
+}
+
+#send_prop h2, #get_discount h2{
+	color:white;
+}
+
+#get_discount .popup-title{
+	background-image:url(../img/popup-bg2.jpg);
+	color:white;
+}
+
+
+#send_prop .modal-close, #get_discount .modal-close{
+	background-image:url(../img/remove_icon-white.png) !important;
+}
+
+.get-call-logo{
+	background-image:url(../img/phone-receiver.png);
+	background-repeat:no-repeat;
+	border:1px solid #987d1c;
+	background-position:50% 50%;
+	border-radius:100%;
+	padding:28px;
+	position:absolute;
+	top:20%;
+	left:18%;
+	z-index:20;
+}
+
+.popup-title h2{
+	margin:0;
+	font-size:26px;
+	text-indent:-15px;
+}
+
+.popup-title p{
+	text-indent:40px;
+	font-family:'Arsenal', sans serif;
+}
+
+.popup-content{
+	padding:20px 20px 40px 100px;
+	float:left;
+}
+
+.popup-content form{
+	width:360px;
+}
+
+.popup-content span{
+	color:#298fde;
+	font-size:25px;
+}
+
+.popup-content input[type='text'], .popup-content input[type='tel']{
+	width:360px;
+	margin-bottom:13px;
+}
+
+.popup-content p{
+	font-size:14px;
+}
+
+.popup-content p a{
+	text-decoration:underline;
+	color:#9ec5ed;
+}
+
+.nes-input{
+	font-size:15px;
+	margin-top:20px;
+	float:left;
+}
+
+.popup-content .button{
+	float:right;
+	margin-top:20px;
+	min-width:165px;
+}
+
+.popup-content input[type='submit']{
+	border:0;
 }
