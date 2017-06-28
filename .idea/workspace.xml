@@ -2,50 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="746ebedd-af45-4f34-a90a-9f778811c752" name="Default" comment="structure - added outer.js">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/act1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/act2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/act3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/date.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/get-call-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/multi.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/mutli.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/phone-receiver.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/popup-bg1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/popup-bg2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/remove_icon-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/remove_icon.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/script-dg.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actions.php" afterPath="$PROJECT_DIR$/actions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/block/input/style.css" afterPath="$PROJECT_DIR$/block/input/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/block/input/style.css.map" afterPath="$PROJECT_DIR$/block/input/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/block/input/style.scss" afterPath="$PROJECT_DIR$/block/input/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/block/textarea/style.css" afterPath="$PROJECT_DIR$/block/textarea/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/block/textarea/style.scss" afterPath="$PROJECT_DIR$/block/textarea/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/popup.css" afterPath="$PROJECT_DIR$/css/popup.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/popup.css.map" afterPath="$PROJECT_DIR$/css/popup.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/popup.scss" afterPath="$PROJECT_DIR$/css/popup.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-db.css" afterPath="$PROJECT_DIR$/css/style-db.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-db.css.map" afterPath="$PROJECT_DIR$/css/style-db.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-db.scss" afterPath="$PROJECT_DIR$/css/style-db.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-df.css" afterPath="$PROJECT_DIR$/css/style-df.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-df.css.map" afterPath="$PROJECT_DIR$/css/style-df.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-df.scss" afterPath="$PROJECT_DIR$/css/style-df.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-dg.css" afterPath="$PROJECT_DIR$/css/style-dg.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-dg.css.map" afterPath="$PROJECT_DIR$/css/style-dg.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-dg.scss" afterPath="$PROJECT_DIR$/css/style-dg.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-di.css" afterPath="$PROJECT_DIR$/css/style-di.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-di.css.map" afterPath="$PROJECT_DIR$/css/style-di.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-di.scss" afterPath="$PROJECT_DIR$/css/style-di.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/breadcrumbs.php" afterPath="$PROJECT_DIR$/includes/breadcrumbs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/footer.php" afterPath="$PROJECT_DIR$/includes/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/popular.php" afterPath="$PROJECT_DIR$/includes/popular.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/popup.php" afterPath="$PROJECT_DIR$/includes/popup.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/common.js" afterPath="$PROJECT_DIR$/js/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multi.php" afterPath="$PROJECT_DIR$/multi.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,7 +17,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="91">
@@ -107,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style-dg.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style-dg.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style-dg.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="279" column="23" lean-forward="false" selection-start-line="279" selection-start-column="23" selection-end-line="279" selection-end-column="23" />
+            <state relative-caret-position="219">
+              <caret line="272" column="21" lean-forward="false" selection-start-line="272" selection-start-column="21" selection-end-line="272" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -496,12 +456,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498580638403</updated>
-      <workItem from="1498580640163" duration="37710000" />
+      <workItem from="1498580640163" duration="38356000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37710000" />
+    <option name="totallyTimeSpent" value="38356000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -513,7 +473,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -948,18 +908,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style-dg.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="279" column="23" lean-forward="false" selection-start-line="279" selection-start-column="23" selection-end-line="279" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
           <caret line="90" column="29" lean-forward="false" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style-dg.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="272" column="21" lean-forward="false" selection-start-line="272" selection-start-column="21" selection-end-line="272" selection-end-column="21" />
           <folding />
         </state>
       </provider>
