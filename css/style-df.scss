@@ -11,9 +11,31 @@
 	border: 1px solid #ddd;
 	padding: 0px 15px;
 }
-.leftsidebar__box{
-
-	
+.leftsidebar .leftsidebar__box:nth-child(1){
+	margin-bottom: 27px;	
+}
+.leftsidebar .leftsidebar__box:nth-child(2){
+	margin-bottom: 35px;	
+}
+.leftsidebar .leftsidebar__box:nth-child(3){
+	margin-bottom: 27px;	
+}
+.leftsidebar .leftsidebar__box:nth-child(4){
+	margin-bottom: 30px;	
+	.leftsidebar__block{
+		.checkbox{
+			margin-bottom: 5px;
+		}
+		.checkbox__label-yellow{
+			max-width: 160px;
+		}
+	}
+}
+.leftsidebar .leftsidebar__box:nth-child(5){
+	margin-bottom: 27px;	
+}
+.leftsidebar .leftsidebar__box:nth-child(6){
+	margin-bottom: 27px;	
 }
 .leftsidebar__cap{
 	color: #333;
@@ -26,6 +48,7 @@
 	position: relative;
 	padding-bottom: 6px;
 	margin: 18px 0 14px 0;
+	cursor: pointer;
 	&:after{
 		content: "";
 		position: absolute;
@@ -36,26 +59,23 @@
 		background: url("../img/sidebar1.png")no-repeat center;
 	}
 }
-
+.leftsidebar__cap_active{
+	&:after{
+		-webkit-transform:rotate(180deg);
+		-moz-transform:rotate(180deg);
+		-ms-transform:rotate(180deg);
+		-o-transform:rotate(180deg);
+		transform:rotate(180deg);
+	}
+}
 .leftsidebar__block{
 	.checkbox{
 		margin-bottom: 1.5px;
 	}
 }
-.leftsidebar__button{
-	margin-bottom: 21px;
-	a{
-		color: white;
-		font-family: "ArialRegular";
-		font-size: 14px;
-		font-weight: 400;
-		line-height: 31px;
-		text-align: center;
-		padding: 0 10px;
-		display: inline-block;
-		text-transform: uppercase;
-		background-color: #298fde;
-	}
+
+.leftsidebar__block{
+	display: none;
 }
 .sidebar__priceinput{
 	text-align: center;
@@ -92,13 +112,14 @@
 		color: #666666;
 	}
 }
-
 // styles rangeslider
 
 .rangeslidr{
 	position: relative;
 	max-width: 250px;
 	width: 100%;
+	margin-top: -10px;
+	margin-bottom: 10px;
 }
 .irs-line, .irs-line-left, .irs-line-mid, .irs-line-right, .irs-bar{
 	height: 6px;
@@ -111,15 +132,40 @@
 }
 .irs-bar{
 	background-position: initial;
-	background:url("../img/rangebg.png") repeat-x center !important;
 }
 .irs-line-mid, .irs-line-left, .irs-line-right, .irs-bar, .irs-bar-edge, .irs-slider{
-	background: #f5f6f8;
+	background: #298fde;
 }
 .irs-slider{
-	background: #ffc000;
-	width: 9px;
-	height: 27px;
-	top: 15px;
+	background: #585462;
+	border: 2px solid #d4d7e2;
+	width: 22px;
+	height: 22px;
+	top: 17px;
+	border-radius: 50%;
 }
 /////////////////////////////////////////
+
+
+.leftsidebar__button{
+	margin-bottom: 21px;
+	a{
+		color: white;
+		font-family: "ArialRegular";
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 31px;
+		text-align: center;
+		padding: 0 10px;
+		display: inline-block;
+		text-transform: uppercase;
+		background-color: #298fde;
+		transition:0.4s;
+		&:hover{
+			transition:0.4s;
+			background-color: #fbd214;
+		}
+	}
+}
+
+

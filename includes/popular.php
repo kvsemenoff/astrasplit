@@ -118,7 +118,7 @@
 						<input type="text" id="range" value="" name="range" />
 					</div>
 					<div class="sidebar__priceinput">											
-						<input type="text" value="1000" disabled="disabled" class="sidebarchangeprice">
+						<input type="text" value="1344" disabled="disabled" class="sidebarchangeprice">
 						<b>-</b>
 						<input type="text" value="50500" disabled="disabled" class="sidebartotalprice">
 					</div>
