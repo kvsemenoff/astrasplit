@@ -2,7 +2,8 @@
 <link rel="stylesheet" href="../../css/reset.css" />
 <link rel="stylesheet" href="../../css/fonts.css" />
 <link rel="stylesheet" href="../../libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
-<link href="https://fonts.googleapis.com/css?family=Roboto:100,300i,400,500,500i,700,700i,900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Arsenal:400,700|Noto+Sans" rel="stylesheet">
+<link rel="stylesheet" href="../button/style.css">
 <link rel="stylesheet" href="style.css">
 
 
@@ -12,7 +13,70 @@
 	<br>
 	<br>
 	<br>
-	
+	<div class="tovar-item">
+		<span class="tovar-item__sale">-50%</span>
+		<span class="tovar-item__saletxt">Скидка</span>
+		<div class="tovar-item__img">
+			<img src="../../img/tovar-item1.jpg" alt="">
+		</div>
+		<div class="tovar-item__txtbox">
+			<a href="#" class="tovar-item__name">Сплит система ANTARKTIK MF07AC-CH</a>
+			<div class="tovar-item__pricebox">
+				<span class="tovar-item__oldprice">3 600 р.</span>
+				<span class="tovar-item__newprice">2 200 р.</span>
+			</div>
+
+			<ul class="tovar-item__characteristic">
+				<li>Современный внутренний блок с глянцевая лицевой панелью </li>
+				<li>Современный роторный компрессор </li>
+				<li>Низкий уровень шума </li>
+				<li>Работают на охлаждение от +21С и на обогрев до -7С </li>
+				<li>Воздушные фильтры </li>
+			</ul>
+			<div class="tovar-item__buttons">
+				<a href='#' class='button button_tranparent'>подробнее</a>
+				<a href='#' class='button button_yellow'>заказать</a>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="tovar-item">
+		<span class="tovar-item__new">Новинка</span>
+		<span class="tovar-item__hit">ХИТ ПРОДАЖ</span>
+		<div class="tovar-item__img">
+			<img src="../../img/tovar-item1.jpg" alt="">
+		</div>
+		<div class="tovar-item__txtbox">
+			<a href="#" class="tovar-item__name">Сплит система ANTARKTIK MF07AC-CH</a>
+			<div class="tovar-item__pricebox">
+				
+				<span class="tovar-item__newprice">2 200 р.</span>
+			</div>
+
+			<ul class="tovar-item__characteristic">
+				<li>Современный внутренний блок с глянцевая лицевой панелью </li>
+				<li>Современный роторный компрессор </li>
+				<li>Низкий уровень шума </li>
+				<li>Работают на охлаждение от +21С и на обогрев до -7С </li>
+				<li>Воздушные фильтры </li>
+			</ul>
+			<div class="tovar-item__buttons">
+				<a href='#' class='button button_tranparent'>подробнее</a>
+				<a href='#' class='button button_yellow'>заказать</a>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
 
 </div>
 
+
+<script src="../../libs/jquery/jquery-1.11.1.min.js"></script>
+
+<script>
+	$('.tovar-item__buttons .button_tranparent').on('click', function(event) {
+		event.preventDefault();
+		$(this).parent('.tovar-item__buttons').prev('.tovar-item__characteristic').slideToggle(300);
+	});
+</script>
