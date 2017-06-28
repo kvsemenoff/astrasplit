@@ -5,27 +5,36 @@
                 <a href="#" class="hidden-xs header_logo__link">
                     <img src="/img/main_logo.png" alt="Астрасплит" class="header_logo__img">
                 </a>
-                <a href="#" class="hidden-md header_logo__link">
+                <a href="#" class="hidden-sm hidden-md hidden-lg header_logo__link">
                     <img src="/img/logo_mobile.png" alt="Астрасплит" class="header_logo__img">
                 </a>
             </div>
-            <div class="header_schedule hidden-xs">
+            <div class="header_schedule hidden-xs hidden-sm">
                 <p class="header_schedule__descr">Продажа, установка и обслуживание сплит-систем в г. Астрахани</p>
                 <p class="header_schedule__time">пн-сб с 9:00 до 20:00 </p>
             </div>
             <div class="header_phones">
                 <p class="header_phones__number">+7 (8512) <span>72-11-72</span></p>
                 <p class="header_phones__number">+7 (937) <span>822-28-38</span></p>
-                <div class="header_search"></div>
+                <div class="header_search hidden-xs hidden-sm hidden-md">
+                    <div class='search-form'>
+                        <form>
+                            <input type='search' placeholder='Поиск по товарам'>
+                            <input type='submit' value=" ">
+                        </form>
+                    </div>
+                </div>
+
             </div>
+            <div class="clearfix hidden-md hidden-lg"></div>
             <div class="header_compare">
-                <div class="header_compare_positions hidden-xs">
+                <div class="header_compare_positions hidden-xs hidden-sm">
                     <a href="" class="header_compare__link">Сравнить:</a>
                     <span class="header_compare__count">0 позиций</span>
                 </div>
                 <div class="header_compare__callback">
                     <a href='#' class='button button_blue'>заказать звонок</a>
-                    <a href="#" class="hamburger">
+                    <a href="#" class="hamburger hidden-lg">
                             <span class="menu-global menu-top"></span>
                             <span class="menu-global menu-middle"></span>
                             <span class="menu-global menu-bottom"></span>
@@ -35,7 +44,7 @@
             </div>
         </div>
         <div class="header_menu">
-            <a href="#" class="close_btn"></a>
+            <a href="#" class="close_btn hidden-lg"></a>
             <nav>
                 <ul class="header_menu__list">
                     <li class="header_menu__item"><a href="#" class="header_menu__link arrowed active_link">Сплит
