@@ -1,64 +1,57 @@
-.button{
-	display:inline-block;
-	outline:none;
-	text-decoration:none;
-	padding:10px 16px;
-	font-size:14px;
-	font-family: 'ArialRegular';
-	font-weight: 300;
-	text-transform: uppercase;
-	transition:0.5s;
-}
+.button {
+  display: inline-block;
+  outline: none;
+  text-decoration: none;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-family: 'ArialRegular';
+  font-weight: 300;
+  text-transform: uppercase;
+  transition: 0.5s; }
 
-.button_blue{
-	color:white;
-	background-color: #298fde;
-}
+.button_blue {
+  color: white;
+  background-color: #298fde; }
 
-.button_blue_big{
-	font-size:16px;
-	color:white;
-	background-color: #298fde;
-	padding:15px 16px 13px 16px;
-	min-width: 230px;
-	text-align:center;
-}
+.button_blue_big {
+  font-size: 16px;
+  color: white;
+  background-color: #298fde;
+  padding: 15px 16px 13px 16px;
+  min-width: 230px;
+  text-align: center; }
 
-.button_blue:hover, .button_blue_big:hover{
-	background-color: #fce21c;
-	color:#333333;
-}
+.button_blue:hover, .button_blue_big:hover {
+  background-color: #fce21c;
+  color: #333333; }
 
-.button_yellow{
-	background-color: #fce21c;
-	color:#333333;
-	padding:9px 18px;
-}
+.button_yellow {
+  background-color: #fce21c;
+  color: #333333;
+  padding: 9px 18px; }
 
-.button_yellow_big{
-	font-size:16px;
-	padding:15px 16px 13px 16px;
-	min-width: 230px;
-	text-align:center;
-	background-color: #fce21c;
-	color:#333333;
-}
+.button_yellow_big {
+  font-size: 16px;
+  padding: 15px 16px 13px 16px;
+  min-width: 230px;
+  text-align: center;
+  background-color: #fce21c;
+  color: #333333; }
 
-.button_yellow:hover, .button_yellow_big:hover{
-	background-color: #298fde;
-	color:white;
-}
+.button_yellow:hover, .button_yellow_big:hover {
+  background-color: #298fde;
+  color: white; }
 
-.button_tranparent{
-	background-color: transparent;
-	color:#4d4b4d;
-	border:1px solid #e3e1e3;
-	padding:8px 16px;
-	min-width:115px;
-	text-align:center;
-}
+.button_tranparent {
+  background-color: transparent;
+  color: #4d4b4d;
+  border: 1px solid #e3e1e3;
+  padding: 8px 16px;
+  min-width: 115px;
+  text-align: center; }
 
-.button_tranparent:hover{
-	background-color:#4d4b4d;
-	color:white;
-}
+.button_tranparent:hover {
+  background-color: #4d4b4d;
+  color: white; }
+
+/*# sourceMappingURL=style.css.map */
