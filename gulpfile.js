@@ -7,14 +7,14 @@ var css_our = new Array(
 	'block/breadcrumps/style.css',
 	'block/button/style.css',
 	'block/call/style.css',
-	'block/checkboxandradio/style.css',
+	'block/checkbox/style.css',
 	'block/counter/style.css',
 	'block/filter/style.css',
 	'block/h1/style.css',
 	'block/h2/style.css',
 	'block/h3/style.css',
 	'block/h4/style.css',
-	'block/inputtext/style.css',
+	'block/input/style.css',
 	'block/logobox/style.css',
 	'block/main-menu/main-menu.css',
 	'block/manager/style.css',
@@ -49,14 +49,14 @@ var scss_our = new Array(
 	'block/breadcrumps/style.scss',
 	'block/button/style.scss',
 	'block/call/style.scss',
-	'block/checkboxandradio/style.scss',
+	'block/checkbox/style.scss',
 	'block/counter/style.scss',
 	'block/filter/style.scss',
 	'block/h1/style.scss',
 	'block/h2/style.scss',
 	'block/h3/style.scss',
 	'block/h4/style.scss',
-	'block/inputtext/style.scss',
+	'block/input/style.scss',
 	'block/logobox/style.scss',
 	'block/main-menu/main-menu.scss',
 	'block/manager/style.scss',
@@ -86,7 +86,10 @@ var css_libs = new Array(
 	'libs/bootstrap/bootstrap-grid-3.3.1.min.css',
 	'libs/font-awesome/font-awesome.min.css',
 	'libs/fancybox/jquery.fancybox.css',
-	'libs/owl.carousel/assets/owl.carousel.css'
+	'libs/owl.carousel/assets/owl.carousel.css',
+	'libs/rangeslider/ion.rangeSlider.css',
+	'libs/rangeslider/ion.rangeSlider.skinFlat.css',
+	'libs/select/selectric.css'
 );
 
 var css_all = css_libs.concat(css_our); 
@@ -97,13 +100,15 @@ var css_style_name = 'style.min.css';
 //файлы js-скриптов
 var js_our = new Array(
 	'js/popup.js',
-	'js/common.js',
-	'js/outer.js'
+	'js/fonts.js',
+	'js/common.js'
 );
 var js_libs = new Array(
 	'libs/jquery/jquery-1.11.1.min.js',
 	'libs/owl.carousel/owl.carousel.js',
 	'libs/fancybox/jquery.fancybox.pack.js',
+	'libs/select/jquery.selectric.min.js',
+	'libs/rangeslider/ion.rangeSlider.js',
 	'js/jquery.maskedinput.min.js',
 	'js/responsiveTabs.js'
 );
