@@ -1,0 +1,36 @@
+ol {
+  counter-reset: myCounter;
+  list-style: none; }
+  ol li {
+    color: #333;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    position: relative;
+    margin-bottom: 25px; }
+    ol li:before {
+      counter-increment: myCounter;
+      content: counter(myCounter);
+      display: inline-block;
+      color: #333;
+      font-family: "Arsenal";
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 22px;
+      text-align: left;
+      min-width: 17px; }
+    ol li:after {
+      content: ")";
+      position: absolute;
+      width: 5px;
+      height: 5px;
+      color: #333;
+      font-family: "Arsenal";
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 22px;
+      left: 8px;
+      top: 0; }
+
+/*# sourceMappingURL=style.css.map */
