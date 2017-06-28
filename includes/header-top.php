@@ -21,7 +21,7 @@
                     <span class="header_compare__count">0 позиций</span>
                 </div>
                 <div class="header_compare__callback">
-
+                    <a href='#' class='button button_blue'>заказать звонок</a>
                 </div>
             </div>
         </div>
@@ -33,27 +33,27 @@
                     <li class="header_menu__item"><a href="#" class="header_menu__link arrowed">Полупромышленные</a>
                     </li>
                     <li class="header_menu__item">
-                        <a href="#" class="header_menu__link">Сервисный центр
-                            <ul class="header_submenu">
-                                <li class="header_submenu__item"><a href="#" class="header_submenu__link">Обслуживание и
-                                        чистка сплит систем</a></li>
-                                <li class="header_submenu__item"><a href="#" class="header_submenu__link">Установка
-                                        сплит-систем</a></li>
-                                <li class="header_submenu__item"><a href="#" class="header_submenu__link">Установка
-                                        сплит-систем в два этапа</a></li>
-                                <li class="header_submenu__item"><a href="#" class="header_submenu__link">Заправка
-                                        сплит-систем</a></li>
-                                <li class="header_submenu__item"><a href="#" class="header_submenu__link">Демонтаж
-                                        сплит-систем</a></li>
-                            </ul>
-                        </a>
+                        <a href="#" class="header_menu__link arrowed">Сервисный центр</a>
+                        <div class="connector"></div>
+                        <ul class="header_submenu">
+                            <li class="header_submenu__item"><a href="#" class="header_submenu__link">Обслуживание и
+                                    чистка сплит систем</a></li>
+                            <li class="header_submenu__item"><a href="#" class="header_submenu__link">Установка
+                                    сплит-систем</a></li>
+                            <li class="header_submenu__item"><a href="#" class="header_submenu__link">Установка
+                                    сплит-систем в два этапа</a></li>
+                            <li class="header_submenu__item"><a href="#" class="header_submenu__link">Заправка
+                                    сплит-систем</a></li>
+                            <li class="header_submenu__item"><a href="#" class="header_submenu__link">Демонтаж
+                                    сплит-систем</a></li>
+                        </ul>
                     </li>
                     <li class="header_menu__item"><a href="#" class="header_menu__link">Акции</a></li>
-                    <li class="header_menu__item"><a href="#" class="header_menu__link">Организациям</a></li>
+                    <li class="header_menu__item"><a href="#" class="header_menu__link organisation">Организациям</a></li>
                     <li class="header_menu__item"><a href="#" class="header_menu__link">Доставка и оплата</a></li>
                     <li class="header_menu__item"><a href="#" class="header_menu__link">Оптом</a></li>
-                    <li class="header_menu__item"><a href="#" class="header_menu__link">Цены</a></li>
-                    <li class="header_menu__item"><a href="#" class="header_menu__link">Контакты</a></li>
+                    <li class="header_menu__item"><a href="#" class="header_menu__link prices">Цены</a></li>
+                    <li class="header_menu__item"><a href="#" class="header_menu__link contacts">Контакты</a></li>
                 </ul>
             </nav>
         </div>
