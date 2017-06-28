@@ -18,17 +18,19 @@
   }
 }
 .header_phones {
-  float: left;
+  float: right;
   text-align: right;
   @media screen and (min-width: 1200px) {
+    float: left;
     width: 100%;
     max-width: 360px;
     margin-left: 50px;
   }
 }
 .header_compare {
-  float: right;
+  float: left;
   @media screen and (min-width: 1200px) {
+    float: right;
     width: 100%;
     max-width: 168px;
     margin-left: 25px;
@@ -36,34 +38,42 @@
 }
 .header_menu__list {
   font-size: 0;
-  display: none;
   @media screen and (min-width: 1200px) {
     display: block;
   }
 }
 .header_menu__link {
   display: inline-block;
-  background-color: #fbd008;
-  opacity: 0.95;
   font-family: "Arsenal";
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 18px;
   color: #333;
-  padding: 16px 14px;
+  padding: 16px 0;
   &:hover {
     background-color: #fdec6b;
     transition: .5s;
   }
+  @media screen and (min-width: 1200px) {
+    background-color: #fbd008;
+    opacity: 0.95;
+    padding: 16px 14px;
+  }
 }
 .header_menu__link.organisation {
-  padding-left: 10px;
+  @media screen and (min-width: 1200px) {
+    padding-left: 10px;
+  }
 }
 .header_menu__link.contacts {
-  padding-right: 22px;
+  @media screen and (min-width: 1200px) {
+    padding-right: 22px;
+  }
 }
 .header_menu__link.prices {
-  padding-left: 10px;
+  @media screen and (min-width: 1200px) {
+    padding-left: 10px;
+  }
 }
 .header_menu__link.arrowed:after {
   content: '';
@@ -75,10 +85,12 @@
   background: url(/img/main_arrow.png) 0 0 no-repeat;
 }
 .header_menu__link.active_link {
-  background-color: #616161;
-  color: #fff;
-  &:after {
-    background: url(/img/main_arrow_white.png) 0 0 no-repeat;
+  @media screen and (min-width: 1200px) {
+    background-color: #616161;
+    color: #fff;
+    &:after {
+      background: url(/img/main_arrow_white.png) 0 0 no-repeat;
+    }
   }
 }
 .connector {
@@ -89,18 +101,24 @@
   margin-bottom: -5px;
 }
 .header_menu__item {
-  display: inline-block;
+  display: block;
   &:nth-child(1) a {
-    padding: 16px 10px 16px 20px;
+    @media screen and (min-width: 1200px) {
+      padding: 16px 10px 16px 20px;
+    }
   }
   &:nth-child(2) a {
-    padding: 16px 13px 16px 13px;
+    @media screen and (min-width: 1200px) {
+      padding: 16px 13px 16px 13px;
+    }
     &:after {
       margin-left: 2px;
     }
   }
   &:nth-child(3) .header_menu__link {
-    padding: 16px 11px 16px 11px;
+    @media screen and (min-width: 1200px) {
+      padding: 16px 11px 16px 11px;
+    }
   }
   &:nth-child(3):hover {
     .header_submenu, .connector {
@@ -109,6 +127,9 @@
   }
   &:nth-child(3) {
     position: relative;
+  }
+  @media screen and (min-width: 1200px) {
+    display: inline-block;
   }
 }
 .header_submenu {
@@ -158,7 +179,7 @@
 .header_phones__number {
   color: #333;
   font-family: "ArialRegular";
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 18px;
   span {
@@ -174,5 +195,43 @@
   margin-top: 25px;
 }
 .button.button_blue {
-  padding: 9px 17px;
+  padding: 14px 16px;
+  font-size: 12px;
+  display: inline-block;
+}
+.hamburger {
+  color: #333;
+  font-family: "ArialBold";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 13px;
+  text-transform: uppercase;
+  outline: 0;
+  opacity: 0.95;
+  display: inline-block;
+  background-color: #fbd008;
+  padding: 15px 39px 17px 62px;
+  margin: 0 auto;
+  position: relative;
+  margin-left: -2px;
+}
+.menu-global {
+  backface-visibility: hidden;
+  position: absolute;
+  left: 0;
+  border-top: 3px solid #333;
+  width: 100%;
+  transition: 0.55s;
+  width: 21px;
+  height: 15px;
+  left: 30px;
+}
+.menu-top {
+  top: 14px;
+}
+.menu-middle {
+  top: 20px;
+}
+.menu-bottom {
+  top: 26px;
 }

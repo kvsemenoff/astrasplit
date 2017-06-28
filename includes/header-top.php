@@ -2,11 +2,14 @@
     <div class="container">
         <div class="header_info clearfix">
             <div class="header_logo">
-                <a href="#" class="header_logo__link">
+                <a href="#" class="hidden-xs header_logo__link">
                     <img src="/img/main_logo.png" alt="Астрасплит" class="header_logo__img">
                 </a>
+                <a href="#" class="hidden-md header_logo__link">
+                    <img src="/img/logo_mobile.png" alt="Астрасплит" class="header_logo__img">
+                </a>
             </div>
-            <div class="header_schedule">
+            <div class="header_schedule hidden-xs">
                 <p class="header_schedule__descr">Продажа, установка и обслуживание сплит-систем в г. Астрахани</p>
                 <p class="header_schedule__time">пн-сб с 9:00 до 20:00 </p>
             </div>
@@ -16,12 +19,18 @@
                 <div class="header_search"></div>
             </div>
             <div class="header_compare">
-                <div class="header_compare_positions">
+                <div class="header_compare_positions hidden-xs">
                     <a href="" class="header_compare__link">Сравнить:</a>
                     <span class="header_compare__count">0 позиций</span>
                 </div>
                 <div class="header_compare__callback">
                     <a href='#' class='button button_blue'>заказать звонок</a>
+                    <a href="#" class="hamburger">
+                            <span class="menu-global menu-top"></span>
+                            <span class="menu-global menu-middle"></span>
+                            <span class="menu-global menu-bottom"></span>
+                        меню
+                    </a>
                 </div>
             </div>
         </div>
