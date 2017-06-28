@@ -9,13 +9,10 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
-			<div class="breadcrumbs">
+			<div class="breadcrumbs-di">
 				<ul>
-					<li><a href="">Крошки1</a></li>
-					<li><a href="">Крошки2</a></li>
-					<li><a href="">Крошки3</a></li>
-					<li><a href="">Крошки4</a></li>
-					<li><a href="" class="current">Крошки5</a></li>
+					<li class="uncurrent"><a href="">Главная</a></li>
+					<li><a href="" class="current">Сервисный центр</a></li>
 				</ul>
 			</div>
 		</div>
