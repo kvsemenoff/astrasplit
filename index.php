@@ -8,7 +8,7 @@
 <body>
 	<div class="wrapper">
 		<div class="content">
-			
+            <?php require_once('includes/header-top.php'); ?>
 		</div>
 		<div class="footer">
 			<?php require_once('includes/footer.php'); ?> 

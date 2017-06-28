@@ -1,3 +1,95 @@
+.header_top {
+  padding-top: 20px;
+  padding-bottom: 12px; }
 
+.header_logo {
+  float: left; }
+  @media screen and (min-width: 992px) {
+    .header_logo {
+      width: 100%;
+      max-width: 206px; } }
+
+.header_schedule {
+  float: left; }
+  @media screen and (min-width: 992px) {
+    .header_schedule {
+      width: 100%;
+      max-width: 250px; } }
+
+.header_phones {
+  float: left; }
+  @media screen and (min-width: 992px) {
+    .header_phones {
+      width: 100%;
+      max-width: 360px; } }
+
+.header_compare {
+  float: right; }
+  @media screen and (min-width: 992px) {
+    .header_compare {
+      width: 100%;
+      max-width: 170px; } }
+
+.header_menu__list {
+  font-size: 0; }
+
+.header_menu__link {
+  display: inline-block;
+  background-color: #fbd008;
+  opacity: 0.95;
+  font-family: "Arsenal";
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #333;
+  padding: 16px 14px; }
+  .header_menu__link:hover {
+    background-color: #fdec6b;
+    transition: .5s; }
+
+.header_menu__link.active_link {
+  background-color: #616161;
+  color: #fff; }
+  .header_menu__link.active_link:after {
+    background: url(/img/main_arrow_white.png) 0 0 no-repeat; }
+
+.header_menu__item {
+  display: inline-block; }
+  .header_menu__item:nth-child(1) a {
+    padding: 16px 10px 16px 20px; }
+  .header_menu__item:nth-child(2) a {
+    padding: 16px 13px 16px 13px; }
+    .header_menu__item:nth-child(2) a:after {
+      margin-left: 2px; }
+  .header_menu__item:nth-child(3) .header_menu__link {
+    padding: 16px 11px 16px 11px;
+    position: relative; }
+
+.header_submenu {
+  display: block;
+  width: 308px;
+  padding: 14px 29px 20px 29px;
+  position: absolute;
+  top: 55px;
+  background-color: #fff;
+  box-shadow: 0 0 3px rgba(69, 65, 64, 0.35);
+  border-bottom: 3px solid #434040;
+  z-index: 9999; }
+
+.header_submenu__link {
+  display: inline-block;
+  font-family: "Arsenal";
+  font-size: 16px;
+  line-height: 35px;
+  font-weight: 400;
+  color: #333; }
+  .header_submenu__link:hover {
+    color: #298fde;
+    transition: .2s; }
+
+.header_submenu__item {
+  border-bottom: 1px solid #eeeeee; }
+  .header_submenu__item:last-child {
+    border: 0; }
 
 /*# sourceMappingURL=style-dg.css.map */
