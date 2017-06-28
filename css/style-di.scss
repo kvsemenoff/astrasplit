@@ -1,4 +1,5 @@
 $ff:'ArsenalRegular', sans-serif;
+$fa:'ArialRegular', sans-serif;
 $a-c: #333333;
 $a-c-a: #298fde;
 
@@ -91,7 +92,7 @@ $a-c-a: #298fde;
 					margin: 20px 0 0 35px; 
 				}
 				a{
-					font-family:   'ArialRegular', sans-serif;
+					font-family: $fa;
 					color: #333;
 					cursor: default;
 					text-decoration: none;
@@ -172,10 +173,32 @@ $a-c-a: #298fde;
 
 /* Actions */
 .actions__h1{
-	margin: 30px 0;
+
+	margin-top: 20px;
+}
+.somePad{
+	margin-top: -30px;
+}
+.somePad2{
+	padding-bottom: 20px; 
 }
 .act__block{
+	margin-top: 40px;  
 	img{
 		display: inline-block;
+		width: 100%;
+		height: auto; 
+	}
+	.date-di{
+		color: #666666;
+		font-size: 14px;
+		font-family: $fa;  
+	}
+	.topic-di{
+		display: block;
+		margin-top: 10px;
+		color: #298FDE;
+		font-size: 24px;
+		font-family: $ff;  
 	}
 }
