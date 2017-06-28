@@ -1,4 +1,4 @@
-input[type='text'] {
+input[type='text'], input[type='tel'] {
   display: inline-block;
   font-family: 'ArialRegular';
   height: 40px;
@@ -7,11 +7,10 @@ input[type='text'] {
   outline: none;
   line-height: 40px;
   padding-left: 10px;
-  border: 1px solid #a9a9a9; }
+  border: 1px solid #cccccc; }
 
-input[type='text']:focus {
-  border: 1px solid #d2e8fc;
-  box-shadow: 0px 0px 25px -1px #f0f0f0; }
+input[type='text']:focus, input[type='tel']:focus {
+  border: 1px solid #69b0e8; }
 
 .input-title {
   font-family: 'ArialRegular';

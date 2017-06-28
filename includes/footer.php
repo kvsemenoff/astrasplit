@@ -95,7 +95,6 @@
 <script src="js/fonts.js"></script>
 <script src="js/popup.js"></script>
 <script src="js/common.js"></script>
-<script src="js/script-dg.js"></script>
 <!-- scripts end -->
 </body>
 </html>
