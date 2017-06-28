@@ -1,7 +1,38 @@
 $ff:'ArsenalRegular', sans-serif;
 $a-c: #333333;
 $a-c-a: #298fde;
+
+
+#breadcrumbs {
+    text-align: center;
+}
+#breadcrumbs ul {
+    display: inline-table;
+    list-style: none outside none;
+}
+#breadcrumbs ul li {
+    display: inline;
+}
+#breadcrumbs ul li a {
+	display: block;
+	float: left;
+	height: 50px;
+	background: #3498db;
+	text-align: center;
+	padding: 30px 40px 0 40px;
+	position: relative;
+	margin: 0 10px 0 0; 
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
 .wrap-footer-di{
+	.upspan-di{
+		text-transform: uppercase;
+	}
 	padding-bottom: 30px;
 	background-color: #eceeec;
 	.wrap-footer-content-di{
@@ -9,8 +40,7 @@ $a-c-a: #298fde;
 		margin-top: 30px;
 		span{
 			font-size: 18px;
-			color: #666;
-			text-transform: uppercase;  
+			color: #666; 
 		}
 		.wrap-ul-di{
 			margin-left: 3px; 
@@ -26,24 +56,46 @@ $a-c-a: #298fde;
 			}
 			ul{
 				li{
-					padding: 8px 0; 
+					padding: 4px 0; 
 				}
 			}
 		}
 		.two-di{
-			margin-top: 63px; 
+			margin-top: 60px; 
 		}
 		.wrap-thridcol-di{
 			img{
-				width: 100%;
-  				height: auto;
-  				display: inline-block;
+				position: absolute;
+				display: inline-block;
 			}
 			.f-phone-di{
-				margin-top: 35px; 
+				margin-top: 10px; 
+			}
+			.phs-di{
+				margin: 10px 0 0 35px; 
+			}
+			.f-email-di{
+				margin-top: 3px;
+			}
+			.content-part{
+				margin: 20px 0 0 35px; 
 			}
 			strong{
 				color: $a-c; 
+			}
+			.pointer-di{
+				.f-pointer-di{
+					margin-left: 3px;
+				}
+				.wrap-pointer-di{
+					margin: 20px 0 0 35px; 
+				}
+				a{
+					font-family:   'ArialRegular', sans-serif;
+					color: #333;
+					cursor: default;
+					text-decoration: none;
+				}
 			}
 		}
 		.f-somet-di{
@@ -52,7 +104,7 @@ $a-c-a: #298fde;
 				font-family: 'ArialRegular', sans-serif;
 				font-size: 14px;
 				color: #666;
-				text-transform: none; 
+				text-transform: default!important; 
 			}
 		}
 	}
@@ -64,19 +116,23 @@ $a-c-a: #298fde;
 		font-size: 14px;
 	}
 	.df-di{
-		padding: 20px 0;
-	}
-	img{
-		width: 100%;
-  		height: auto;
-  		display: inline-block;
+		padding: 15px 0;
 	}
 	.rdf-di{
+		padding-bottom: 15px;
 		display: inline-block;
 		text-transform: uppercase;
-		color: #E4E6E4;
-		font-size: 12px; 
+		color: #b0b1b0;
+		font-size: 12px;
+		strong{
+			cursor: pointer;
+			text-decoration: underline;
+		}
 	}
+}
+.f-md-di{
+	visibility: hidden;
+	position: absolute;
 }
 @media only screen and (min-width : 320px) {
 }
@@ -88,11 +144,30 @@ $a-c-a: #298fde;
 }
 
 @media only screen and (min-width : 992px) {
+	.rdf-di{
+		padding: 17px 0; 
+	}
+	.phs-di{
+				margin: 47px 0 0 35px!important; 
+			}
 	.wrap-rdf-di{
 		margin-right: 20%;
 	}
-	
+	.f-md-di{
+		visibility: visible;
+		position: relative;
+	}
+	.wrap-ul-di{
+			ul{
+				li{
+					padding: 8px 0!important; 
+				}
+			}
+		}
 }
 
 @media only screen and (min-width : 1248px) {
 }
+
+
+/*Bread Crumbs*/
