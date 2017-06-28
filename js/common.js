@@ -60,4 +60,24 @@ $(document).ready(function(){
 		$(this).parent('.tovar-item__buttons').prev('.tovar-item__characteristic').slideToggle(300);
 	});
 
+
+
+
+	$("#range").ionRangeSlider({
+		hide_min_max: true,
+		hide_from_to:true,
+		keyboard: true,
+		min: 0,
+		max: 5000,
+		from: 250,
+		to: 3000,
+		type: 'double',
+		step: 10,
+		prefix: "",
+		grid: false,            
+		onChange:  function (data) {			
+			$('.sidebarchangeprice').val(data.from);
+			$('.sidebartotalprice').val(data.to);			
+		},
+	});
 });

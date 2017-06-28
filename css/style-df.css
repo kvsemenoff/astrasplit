@@ -1,3 +1,82 @@
+.content-wrapper {
+  max-width: 1144px;
+  width: 100%; }
 
+.leftsidebar {
+  max-width: 264px;
+  width: 100%;
+  display: inline-block;
+  float: left;
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 0px 15px; }
+
+.leftsidebar__cap {
+  color: #333;
+  font-family: "ArialBold";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  border-bottom: 2px solid #d5d5d5;
+  display: block;
+  position: relative;
+  padding-bottom: 6px;
+  margin: 18px 0 14px 0; }
+  .leftsidebar__cap:after {
+    content: "";
+    position: absolute;
+    top: 4px;
+    right: 6px;
+    width: 10px;
+    height: 10px;
+    background: url("../img/sidebar1.png") no-repeat center; }
+
+.leftsidebar__block .checkbox {
+  margin-bottom: 1.5px; }
+
+.leftsidebar__button {
+  margin-bottom: 21px; }
+  .leftsidebar__button a {
+    color: white;
+    font-family: "ArialRegular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 31px;
+    text-align: center;
+    padding: 0 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: #298fde; }
+
+.sidebar__priceinput {
+  text-align: center; }
+  .sidebar__priceinput b {
+    color: #333;
+    font-family: "ArialRegular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block; }
+  .sidebar__priceinput input {
+    width: 102px;
+    height: 30px;
+    color: #333;
+    font-family: "ArialRegular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    background-color: white;
+    outline: none;
+    border: 0;
+    text-align: center;
+    padding: 0; }
+  .sidebar__priceinput .sidebarchangeprice {
+    float: left;
+    border: 2px solid #298fde; }
+  .sidebar__priceinput .sidebartotalprice {
+    float: right;
+    border: 1px solid #ccc;
+    color: #666666; }
 
 /*# sourceMappingURL=style-df.css.map */
