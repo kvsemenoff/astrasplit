@@ -38,4 +38,5 @@
 	<link rel="stylesheet" href="css/style-dj.css">
 	<!-- styles end -->
 	
-
+</head>
+<body class="body">
