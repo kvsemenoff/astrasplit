@@ -33,12 +33,11 @@
   margin: 0 auto;
   font-family: 'Arsenal', sans serif; }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 500px) {
   .modal-window {
     width: 555px;
     height: auto; } }
 #thanks {
-<<<<<<< HEAD
   text-align: center;
   height: 150px;
   padding-top: 30px; }
@@ -48,16 +47,11 @@
   font-size: 27px;
   font-weight: 700; }
 
-.popup-title {
-  width: 100%;
-=======
-  text-align: center; }
-
 #thanks .popup-title {
   margin-top: 20px; }
 
 .popup-title {
-  width: 525px;
+  width: 100%;
 >>>>>>> 5d61371b5160b33fe27f0924453f39ec67311364
   float: left;
   padding: 15px 15px 25px 15px;
@@ -71,7 +65,7 @@
   color: #24242d;
   font-size: 24px;
   padding-bottom: 18px; }
-=======
+
 #order_call .popup-title {
   background-image: url(../img/get-call-bg.jpg);
   color: #24242d; }
@@ -112,11 +106,15 @@
   font-family: 'Arsenal', sans serif; }
 
 .popup-content {
-  padding: 20px 20px 40px 100px;
-  float: left; }
+  width:100%; 
+  float:left;
+  height:100%;
+  padding:20px 0;}
 
 .popup-content form {
-  width: 360px; }
+  width: 360px; 
+  display:block;
+  margin:auto;}
 
 .popup-content span {
   color: #298fde;
@@ -141,7 +139,8 @@
 .popup-content .button {
   float: right;
   margin-top: 20px;
-  min-width: 165px; }
+  min-width: 165px; 
+}
 
 .popup-content input[type='submit'] {
   border: 0; }
@@ -163,7 +162,8 @@
   color: white; }
 
 #get_discount .button {
-  float: none; }
+  float: none; 
+  display:inline-block;}
 
 .popup-content div {
   text-align: center; }
@@ -199,10 +199,6 @@
 .popup-title p {
   font-family: 'Arsenal', sans serif; }
 
-.popup-content {
-  padding: 20px 20px 40px 100px;
-  float: left; }
-
 .popup-content form {
   width: 360px; }
 
@@ -237,5 +233,14 @@
 
 a[href='#thanks'] {
   display: none; }
+
+@media screen and (max-width:500px){
+  .popup-content form{width:270px;}
+  .popup-content input[type='text'], .popup-content input[type='tel']{width:270px;}
+  .nes-input{margin-top:10px;}
+  .popup-content .button{padding:10px 12px; width:100%;}
+  .get-call-logo{display:none;}
+  .popup-title p{text-indent:0;}
+}
 
 /*# sourceMappingURL=popup.css.map */
