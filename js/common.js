@@ -122,6 +122,15 @@ $(document).ready(function(){
 		$(this).toggleClass('leftsidebar__cap_active');
 	});
 
+	$('.product__tabslinks a').on('click', function(e) {
+        e.preventDefault();
+        $('.product__tabslinks a').removeClass('product__tabactive');
+        $(this).addClass('product__tabactive');
+        var tab = $(this).attr('href');
+        tab = '.' + tab;
+        $('.product__tabbox').not(tab).css({'display':'none'});
+        $(tab).css({'display':'block'});
+    });
 	// galery on product page
 	$('.owl-slidergalery a').on('click',function(evt) { 
 		evt.preventDefault();     		

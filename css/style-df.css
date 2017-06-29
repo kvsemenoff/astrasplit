@@ -482,8 +482,11 @@
       .product__tabbox .table {
         margin: 0 0 55px 0; } }
 
-.product__tab1 {
+.product__tabbox {
   display: none; }
+
+.product__tab3 {
+  display: block; }
 
 .product__tabbox .button.button_blue {
   display: inline-block;
@@ -526,23 +529,31 @@
   background-size: cover;
   max-width: 745px;
   border: 3px solid #e3dfd1;
-  padding: 22px 94px 22px 94px; }
+  padding: 22px 20px 22px 20px; }
+  @media only screen and (min-width: 992px) {
+    .product__commentform {
+      padding: 22px 90px 22px 94px; } }
   .product__commentform h3 {
     color: #333;
     font-family: 'Arsenal', sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 24px; }
   .product__commentform textarea {
     min-height: 105px;
-    margin-top: 18px;
+    margin-top: 20px;
     border: 1px solid #e3e3dc;
     color: #333;
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
-    padding: 10px 17px; }
+    padding: 10px 17px;
+    outline: none; }
+  .product__commentform textarea:focus {
+    border: 1px solid rgba(41, 143, 222, 0.5);
+    box-shadow: 0 0 7px rgba(41, 143, 222, 0.35); }
 
 .product__commentleft, .product__commentright {
   width: 100%;
@@ -555,14 +566,29 @@
     color: #333;
     font-size: 14px;
     font-weight: 400;
-    line-height: 18px; }
+    line-height: 18px;
+    margin-bottom: 7px; }
   .product__commentleft input, .product__commentright input {
-    width: 100%; }
+    width: 100%;
+    outline: none; }
+  .product__commentleft input:focus, .product__commentright input:focus {
+    border: 1px solid rgba(41, 143, 222, 0.5);
+    box-shadow: 0 0 7px rgba(41, 143, 222, 0.35); }
 
 .product__commentleft {
   float: left; }
 
 .product__commentright {
   float: right; }
+
+.product__commentbuttons {
+  margin-top: 20px; }
+  .product__commentbuttons .checkbox {
+    float: left; }
+  .product__commentbuttons .button.button_blue {
+    float: right;
+    margin-bottom: 0;
+    padding: 10px 41px;
+    border: none; }
 
 /*# sourceMappingURL=style-df.css.map */
