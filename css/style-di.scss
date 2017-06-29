@@ -37,7 +37,7 @@ $a-c-a: #298fde;
 	.upspan-di{
 		text-transform: uppercase;
 	}
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 	background-color: #eceeec;
 	.wrap-footer-content-di{
 		font-family: $ff;
@@ -48,7 +48,7 @@ $a-c-a: #298fde;
 		}
 		.wrap-ul-di{
 			margin-left: 3px; 
-			margin-top: 35px;
+			margin-top: 20px;
 			a{
 				color: $a-c;
 				font-size: 16px;
@@ -65,9 +65,10 @@ $a-c-a: #298fde;
 			}
 		}
 		.two-di{
-			margin-top: 60px; 
+			margin-top: 45px; 
 		}
 		.wrap-thridcol-di{
+			margin-top: -25px;
 			img{
 				position: absolute;
 				display: inline-block;
@@ -82,7 +83,7 @@ $a-c-a: #298fde;
 				margin-top: 3px;
 			}
 			.content-part{
-				margin: 20px 0 0 35px; 
+				margin: 5px 0 0 35px; 
 			}
 			strong{
 				color: $a-c; 
@@ -103,7 +104,7 @@ $a-c-a: #298fde;
 			}
 		}
 		.f-somet-di{
-			margin-top: 47px;
+			margin-top: 22px;
 			span{
 				font-family: 'ArialRegular', sans-serif;
 				font-size: 14px;
@@ -152,10 +153,10 @@ $a-c-a: #298fde;
 		padding: 17px 0; 
 	}
 	.phs-di{
-				margin: 47px 0 0 35px!important; 
-			}
+		margin: 47px 0 0 35px!important; 
+	}
 	.wrap-rdf-di{
-		margin-right: 20%;
+		margin-left: 20%;
 	}
 	.f-md-di{
 		visibility: visible;
@@ -164,7 +165,7 @@ $a-c-a: #298fde;
 	.wrap-ul-di{
 			ul{
 				li{
-					padding: 8px 0!important; 
+					padding: 4px 0!important; 
 				}
 			}
 		}
