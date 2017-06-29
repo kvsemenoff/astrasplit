@@ -1,7 +1,9 @@
 .content-wrapper {
   max-width: 1144px;
-  width: 100%;
-  padding-top: 40px; }
+  width: 100%; }
+  @media only screen and (min-width: 992px) {
+    .content-wrapper {
+      padding-top: 40px; } }
 
 .leftsidebar {
   max-width: 264px;
