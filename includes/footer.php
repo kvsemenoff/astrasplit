@@ -39,7 +39,7 @@
 						<div class="mail-di">
 							<img src="img/f-email-di.png" alt="email" class="f-email-di">
 							<div class="content-part">
-							<a href="">seregabrt@mail.ru</a>
+							<a href="mailto:seregabrt@mail.ru">seregabrt@mail.ru</a>
 							</div>
 						</div>
 						<div class="pointer-di">
