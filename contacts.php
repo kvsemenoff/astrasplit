@@ -49,11 +49,27 @@
                     <div class="contacts_callback">
                         <div class="contacts_form">
                             <div class="contacts_form-header">
-                                <p class="contacts_form-header__title">Обратная связь</p>
-                                <p class="contacts_form-header__promo">Менеджер свяжется с Вами и ответит
-                                    на все интересующие вопросы</p>
+                                <div class="contacts_form-header__text">
+                                    <p class="contacts_form-header__title">Обратная связь</p>
+                                    <p class="contacts_form-header__promo">Менеджер свяжется с Вами и ответит
+                                        на все интересующие вопросы</p>
+                                </div>
                             </div>
-                            <div class="contacts_form-body"></div>
+                            <div class="contacts_form-body">
+                                <form action="/" method="post">
+                                    <label for="contacts_phone" class="contacts_label">Телефон</label>
+                                    <input id="contacts_phone" type="text" class="contacts_input contacts_phone js-phone">
+                                    <label for="contacts_name" class="contacts_label">Ваше имя</label>
+                                    <input id="contacts_name" type="text" class="contacts_input contacts_name">
+                                    <textarea class="contacts_textarea" placeholder="Сообщение"></textarea>
+                                    <div class="contacts_form__descr">
+                                        Заполняя форму, вы соглашаетесь с <a href="#">политикой
+                                            хранения и обработки ваших персональных данных</a>
+                                    </div>
+                                    <span class="contacts_necessary">— Обязательные поля</span>
+                                    <button type="submit" class='button button_blue contacts_btn'>отправить</button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -359,6 +359,13 @@
   .col-md-7, .col-md-5 {
     padding: 0;
   }
+  .col-md-5 {
+    max-width: 460px;
+  }
+  .col-md-7 {
+    max-width: 655px;
+    margin-right: 25px;
+  }
 }
 .contacts_address__descr {
   color: #333;
@@ -433,8 +440,33 @@
   max-width: 655px;
   height: 300px;
 }
-.contacts_form__body {
-  padding: 22px 48px 34px 48px;
+.contacts_callback {
+  max-width: 455px;
+}
+.contacts_form {
+  box-shadow: 0 0 6px rgba(16, 16, 16, 0.2);
+}
+.contacts_form-body {
+  padding: 22px 46px 34px 46px;
+}
+.contacts_form-header__text {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 255px;
+}
+.contacts_form-header {
+  padding: 17px 73px 22px 45px;
+  background: url(/img/form_bg.jpg) 0 0 no-repeat;
+  background-size:cover;
+  &:before {
+    content: '';
+    width: 58px;
+    height: 58px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    background: url(/img/phone_icon.png) 0 0 no-repeat;
+  }
 }
 .contacts_form-header__title {
   color: #333;
@@ -449,4 +481,76 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
+}
+input[type='text'].contacts_input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+input[type='text'].contacts_name {
+  margin-bottom: 25px;
+}
+.contacts_label {
+  font-family: "Arsenal";
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  &:after {
+    content: '*';
+    color: #298fde;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 4px;
+  }
+}
+textarea.contacts_textarea {
+  height: 108px;
+  margin-bottom: 15px;
+}
+.contacts_form__descr {
+  font-family: "Arsenal";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  max-width: 305px;
+  margin-bottom: 22px;
+  color: #333333;
+  a {
+    color: #298fde;
+    text-decoration: underline;
+  }
+}
+.contacts_necessary {
+  color: #666;
+  font-family: "Arsenal";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 10px;
+  &:before {
+    content: '*';
+    color: #298fde;
+    font-weight: bold;
+    width: 5px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+  }
+}
+.button_blue.contacts_btn {
+  border: 0;
+  color: white;
+  font-family: "ArialRegular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: uppercase;
+  float: right;
+  margin-bottom: 0;
+  padding: 8px 40px;
 }
