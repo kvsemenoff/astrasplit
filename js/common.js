@@ -105,6 +105,36 @@ $(document).ready(function(){
 		}
 	});
 
+	var owlsimilar = $(".owl-productsimilar");
+	owlsimilar.owlCarousel({
+		loop:true,
+		nav:true,
+		autoplay:false,
+		smartSpeed:1000,
+		margin:20,
+		mouseDrag:false,
+		touchDrag: false,
+		center:false,
+		navText:['<span class="prevleft"></span>','<span class="nextright"></span>'],
+		responsive:{
+			0:{
+				items:1
+			},
+			550:{
+				items:2
+			},
+			750:{
+				items:2
+			},
+			992:{
+				items:3
+			},
+			1200:{
+				items:4
+			}
+		}
+	});
+
 
 	$('.tovar-item__buttons .button_tranparent').on('click', function(event) {
 		event.preventDefault();
