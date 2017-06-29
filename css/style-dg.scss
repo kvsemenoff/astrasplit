@@ -366,7 +366,9 @@
   }
   .col-md-7 {
     max-width: 655px;
-    margin-right: 25px;
+    @media screen and (min-width: 1200px) {
+      margin-right: 25px;
+    }
   }
 }
 .contacts_address__descr {
@@ -446,11 +448,13 @@
   width: 100%;
   max-width: 655px;
   height: 300px;
+  overflow: hidden;
 }
 .contacts_callback {
   max-width: 455px;
   @media screen and (max-width: 1199px) {
     margin: auto;
+    padding-top: 30px;
   }
 }
 .contacts_form {

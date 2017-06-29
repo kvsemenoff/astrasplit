@@ -333,8 +333,10 @@
   .contacts_main .col-md-5 {
     max-width: 460px; } }
 .contacts_main .col-md-7 {
-  max-width: 655px;
-  margin-right: 25px; }
+  max-width: 655px; }
+  @media screen and (min-width: 1200px) {
+    .contacts_main .col-md-7 {
+      margin-right: 25px; } }
 
 .contacts_address__descr {
   color: #333;
@@ -408,13 +410,15 @@
 #mape {
   width: 100%;
   max-width: 655px;
-  height: 300px; }
+  height: 300px;
+  overflow: hidden; }
 
 .contacts_callback {
   max-width: 455px; }
   @media screen and (max-width: 1199px) {
     .contacts_callback {
-      margin: auto; } }
+      margin: auto;
+      padding-top: 30px; } }
 
 .contacts_form {
   box-shadow: 0 0 6px rgba(16, 16, 16, 0.2); }
