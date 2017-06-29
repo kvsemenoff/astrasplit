@@ -52,7 +52,7 @@
                     <li class="header_menu__item"><a href="#" class="header_menu__link arrowed">Полупромышленные</a>
                     </li>
                     <li class="header_menu__item">
-                        <a href="#" class="header_menu__link arrowed">Сервисный центр</a>
+                        <a href="/service_center.php" class="header_menu__link arrowed">Сервисный центр</a>
                         <div class="connector"></div>
                         <ul class="header_submenu">
                             <li class="header_submenu__item"><a href="#" class="header_submenu__link">Обслуживание и
@@ -67,12 +67,12 @@
                                     сплит-систем</a></li>
                         </ul>
                     </li>
-                    <li class="header_menu__item"><a href="#" class="header_menu__link">Акции</a></li>
+                    <li class="header_menu__item"><a href="/actions.php" class="header_menu__link">Акции</a></li>
                     <li class="header_menu__item"><a href="#" class="header_menu__link organisation">Организациям</a></li>
                     <li class="header_menu__item"><a href="#" class="header_menu__link">Доставка и оплата</a></li>
                     <li class="header_menu__item"><a href="#" class="header_menu__link">Оптом</a></li>
                     <li class="header_menu__item"><a href="#" class="header_menu__link prices">Цены</a></li>
-                    <li class="header_menu__item"><a href="#" class="header_menu__link contacts">Контакты</a></li>
+                    <li class="header_menu__item"><a href="/contacts.php" class="header_menu__link contacts">Контакты</a></li>
                 </ul>
             </nav>
         </div>
