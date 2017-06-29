@@ -367,7 +367,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="productsimilar">
-								<h1>Похожие товары</h1>
+								<h1 class="productsimilar_cap">Похожие товары</h1>
 								<div class="owl-productsimilar">
 									<div class="item">
 										<div class="tovar-item">
