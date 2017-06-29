@@ -10,9 +10,11 @@
 		<div class="content">
             <?php require_once('includes/header-top.php'); ?>
             <?php require_once('includes/breadcrumbs.php'); ?>
+            <a href='#order_call' data-modal="modal">Заказать звонок</a>
+            <a href='#send_prop' data-modal="modal">Отправить предложение</a>
+            <a href='#get_discount' data-modal="modal">Получить скидку</a>
+             <a href='#thanks' data-modal="modal"></a>
 			<?php require_once('includes/popup.php'); ?>
-			<?php require_once('includes/main-news.php'); ?>
-			<?php require_once('includes/service-center.php'); ?>
 		</div>
 		<div class="footer">
 			<?php require_once('includes/footer.php'); ?>  

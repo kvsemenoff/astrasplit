@@ -34,6 +34,7 @@
                 </div>
                 <div class="header_compare__callback">
                     <a href='#order_call' data-modal="modal" class='button button_blue'>заказать звонок</a>
+                    <a href='#thanks' data-modal="modal"></a>
                     <a href="#" class="hamburger hidden-lg">
                             <span class="menu-global menu-top"></span>
                             <span class="menu-global menu-middle"></span>
