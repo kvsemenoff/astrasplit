@@ -323,4 +323,74 @@
   .header_compare_positions {
     text-align: left; } }
 
+/* Contacts */
+.contacts_main .col-md-7, .contacts_main .col-md-5 {
+  padding: 0; }
+
+.contacts_address__descr {
+  color: #333;
+  font-family: "ArialRegular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px; }
+
+.contacts_workdays {
+  margin-bottom: 42px; }
+
+.contacts_email {
+  margin-bottom: 22px; }
+
+.contacts_office {
+  margin-bottom: 32px; }
+
+.contacts_workdays__title {
+  float: left; }
+
+.contacts_workdays__descr {
+  float: right;
+  text-align: left;
+  width: 350px; }
+
+.contacts_workdays__title {
+  color: #333;
+  font-family: "ArialBold";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase; }
+
+.contacts_workdays__time {
+  font-family: "ArialRegular";
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px; }
+
+.contacts_workdays__phone {
+  font-family: "ArialRegular";
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px; }
+  .contacts_workdays__phone span {
+    font-family: "ArialBold";
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px; }
+
+.contacts_workdays__email {
+  font-family: "ArialRegular";
+  color: #298fde;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px; }
+
+.contacts_address__office {
+  font-family: "ArialRegular";
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px; }
+
 /*# sourceMappingURL=style-dg.css.map */
