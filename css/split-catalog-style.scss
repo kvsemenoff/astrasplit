@@ -1,81 +1,69 @@
-.split-catalog{
-	padding-left:5px;
-}
+.split-catalog {
+  padding-left: 5px; }
 
+.split-catalog-left {
+  float: left;
+  width: 67%; }
 
-.split-catalog-left{
-	float:left;
-	width:67%;
-}
+.split-catalog-item {
+  text-align: center;
+  outline: 1px solid #dddddd;
+  cursor: pointer;
+  margin-right: 15px;
+  float: left;
+  height: 80px;
+  width: 112px;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 17px; }
 
-.split-catalog-item{
-	text-align:center;
-	outline:1px solid #dddddd;
-	cursor:pointer;
-	margin-right:15px;
-	float:left;
-	height:80px;
-	width:112px;
-	vertical-align:middle;
-	display:flex;
-	justify-content:center;
-	margin-bottom:17px;
-}
+.split-catalog-item:hover {
+  outline: 2px solid #fbd214; }
 
+.split-catalog-item img {
+  max-width: 100%; }
 
-.split-catalog-item:hover{
-	outline:2px solid #fbd214;
-}
+.split-catalog-right {
+  float: right;
+  width: 32%;
+  margin: 10px 0 0 10px; }
 
-.split-catalog-item img{
-	max-width:100%;
-}
+.split-catalog-sidebar1, .split-catalog-sidebar2 {
+  width: 345px;
+  height: 240px;
+  padding: 15px 0 0 15px;
+  background-size: cover;
+  border: 1px solid #bbc1c8;
+  position: relative; }
 
-.split-catalog-right{
-	float:left;
-	width:32%;
-	margin:10px 0 0 10px;
-}
+.split-catalog-sidebar1 {
+  background-image: url(../img/man2.jpg); }
 
-.split-catalog-sidebar1, .split-catalog-sidebar2{
-	width:345px;
-	height:240px;
-	padding:15px 0 0 15px;
-	background-size:cover;
-	border:1px solid #bbc1c8;
-	position:relative;
-}
+.split-catalog-sidebar2 {
+  margin-top: 10px;
+  background-image: url(../img/man.jpg); }
 
-.split-catalog-sidebar1{
-	background-image:url(../img/man2.jpg);
-}
+.split-catalog-sidebar1 h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  width: 250px;
+  color: #fbd214;
+  margin-bottom: 5px; 
+  float:left;}
 
-.split-catalog-sidebar2{
-	margin-top:10px;
-	background-image:url(../img/man.jpg);
-}
+.split-catalog-sidebar1 h3 {
+  font-size: 21px;
+  color: white;
+  text-transfrom: uppercase;
+  width: 250px;
+  line-height: 1; }
 
-.split-catalog-sidebar1 h2{
-	font-size:36px;
-	text-transform:uppercase;
-	width:250px;
-	color:#fbd214;
-	margin-bottom:5px;
-}
+.split-catalog-sidebar2 h3 {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 200px;
+  font-size: 27px;
+  margin-bottom: 10px; }
 
-.split-catalog-sidebar1 h3{
-	font-size:21px;
-	color:white;
-	text-transfrom:uppercase;
-	width:250px;
-	line-height:1;
-}
-
-.split-catalog-sidebar2 h3{
-	color:white;
-	position:absolute;
-	bottom:0;
-	width:200px;
-	font-size:27px;
-	margin-bottom:10px;
-}
