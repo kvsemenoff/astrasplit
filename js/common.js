@@ -120,7 +120,7 @@ $(document).ready(function(){
 			0:{
 				items:1
 			},
-			480:{
+			550:{
 				items:2
 			},
 			750:{

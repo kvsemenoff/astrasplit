@@ -663,5 +663,36 @@
 
 .productsimilar {
   padding-bottom: 40px; }
+  .productsimilar .tovar-item {
+    max-width: 270px;
+    width: 100%; }
+  .productsimilar .prevleft, .productsimilar .nextright {
+    width: 45px;
+    height: 45px;
+    top: -60px;
+    border: 1px solid #d9d9d9;
+    position: absolute;
+    background-color: #fff; }
+    .productsimilar .prevleft:after, .productsimilar .nextright:after {
+      position: absolute;
+      top: 0;
+      left: 16px;
+      width: 25px;
+      height: 25px;
+      font-family: "FontAwesome";
+      font-size: 30px;
+      color: #4b4b4b; }
+    .productsimilar .prevleft:hover, .productsimilar .nextright:hover {
+      background-color: #4b4b4b; }
+    .productsimilar .prevleft:hover:after, .productsimilar .nextright:hover:after {
+      color: #fff; }
+  .productsimilar .prevleft {
+    right: 50px; }
+    .productsimilar .prevleft:after {
+      content: "\f104"; }
+  .productsimilar .nextright {
+    right: 0; }
+    .productsimilar .nextright:after {
+      content: "\f105"; }
 
 /*# sourceMappingURL=style-df.css.map */
