@@ -1,7 +1,3 @@
-<a href="#order_call" data-modal="modal" >Заказать</a>
-<a href="#send_prop" data-modal="modal" >Предложение</a>
-<a href="#get_discount" data-modal="modal" >Получить скидку</a>
-<a href="#thanks" data-modal="modal" >Спасибо</a>
 <div class="modal-window" id="order_call">
 	<span class="modal-close"></span>
 	<div class='popup-title'>
