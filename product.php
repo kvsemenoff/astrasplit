@@ -297,19 +297,190 @@
 										</table>										
 									</div>
 								</div>
-
-								
-
 							</div>
 						</div>
-
-
 					</div>
-
 				</div>
+
+				<div class="product_likewise">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<h1 class="product_likewise__cap">С товаром также покупают</h1>
+								<div class="product_likewise__block">		
+									<div class="product_likewise__box">
+										<a href="#" class="product_likewise__img">
+											<img src="img/likewise1.jpg" alt="">
+										</a>
+										<a href="#" class="product_likewise__txt">
+											<span>Антибактериальный фильт (Bacteria-Killing Filter )</span>
+										</a>
+									</div>
+									<div class="product_likewise__box">
+										<a href="#" class="product_likewise__img">
+											<img src="img/likewise2.jpg" alt="">
+										</a>
+										<a href="#" class="product_likewise__txt">
+											<span>Нагреватель дренажа Ballu ND-700мм</span>
+										</a>
+									</div>
+									<div class="product_likewise__box">
+										<a href="#" class="product_likewise__img">
+											<img src="img/likewise3.jpg" alt="">
+										</a>
+										<a href="#" class="product_likewise__txt">
+											<span>Антибактериальный фильт (Bacteria-Killing Filter )</span>
+
+										</a>
+									</div>
+									<div class="product_likewise__box">
+										<a href="#" class="product_likewise__img">
+											<img src="img/likewise4.jpg" alt="">
+										</a>
+										<a href="#" class="product_likewise__txt">
+											<span>Антибактериальный фильт (Bacteria-Killing Filter )</span>
+										</a>
+									</div>
+									<div class="product_likewise__box">
+										<a href="#" class="product_likewise__img">
+											<img src="img/likewise4.jpg" alt="">
+										</a>
+										<a href="#" class="product_likewise__txt">
+											<span>Антибактериальный фильт (Bacteria-Killing Filter )</span>
+										</a>
+									</div>
+									<div class="product_likewise__box">
+										<a href="#" class="product_likewise__img">
+											<img src="img/likewise4.jpg" alt="">
+										</a>
+										<a href="#" class="product_likewise__txt">
+											<span>Антибактериальный фильт (Bacteria-Killing Filter )</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="productsimilar">
+								<h1 class="productsimilar_cap">Похожие товары</h1>
+								<div class="owl-productsimilar">
+									<div class="item">
+										<div class="tovar-item">
+											<div class="tovar-item__img">
+												<img src="img/tovar-item3.jpg" alt="">
+											</div>
+											<div class="tovar-item__txtbox">
+												<a href="#" class="tovar-item__name">Сплит система RODA RS-A07B/RU-A07B</a>
+												<div class="tovar-item__pricebox">						
+													<span class="tovar-item__newprice">12 200 р.</span>
+												</div>
+												<ul class="tovar-item__characteristic">
+													<li>Современный внутренний блок с глянцевая лицевой панелью </li>
+													<li>Современный роторный компрессор </li>
+													<li>Низкий уровень шума </li>
+													<li>Работают на охлаждение от +21С и на обогрев до -7С </li>
+													<li>Воздушные фильтры </li>
+												</ul>
+												<div class="tovar-item__buttons">
+													<a href='#' class='button button_tranparent'>подробнее</a>
+													<a href='#' class='button button_yellow'>заказать</a>
+													<div class="clearfix"></div>
+												</div>
+											</div>
+										</div>	
+									</div>
+									<div class="item">
+										<div class="tovar-item">
+											<span class="tovar-item__new">Новинка</span>
+											<div class="tovar-item__img">
+												<img src="img/tovar-item3.jpg" alt="">
+											</div>
+											<div class="tovar-item__txtbox">
+												<a href="#" class="tovar-item__name">Сплит система RODA RS-A07B/RU-A07B</a>
+												<div class="tovar-item__pricebox">						
+													<span class="tovar-item__newprice">12 200 р.</span>
+												</div>
+												<ul class="tovar-item__characteristic">
+													<li>Современный внутренний блок с глянцевая лицевой панелью </li>
+													<li>Современный роторный компрессор </li>
+													<li>Низкий уровень шума </li>
+													<li>Работают на охлаждение от +21С и на обогрев до -7С </li>
+													<li>Воздушные фильтры </li>
+												</ul>
+												<div class="tovar-item__buttons">
+													<a href='#' class='button button_tranparent'>подробнее</a>
+													<a href='#' class='button button_yellow'>заказать</a>
+													<div class="clearfix"></div>
+												</div>
+											</div>
+										</div>	
+									</div>
+									<div class="item">
+										<div class="tovar-item">											
+											<div class="tovar-item__img">
+												<img src="img/tovar-item4.jpg" alt="">
+											</div>
+											<div class="tovar-item__txtbox">
+												<a href="#" class="tovar-item__name">Сплит-система «ZERTEN» BL-9</a>
+												<div class="tovar-item__pricebox">						
+													<span class="tovar-item__newprice">12 200 р.</span>
+												</div>
+												<ul class="tovar-item__characteristic">
+													<li>Современный внутренний блок с глянцевая лицевой панелью </li>
+													<li>Современный роторный компрессор </li>
+													<li>Низкий уровень шума </li>
+													<li>Работают на охлаждение от +21С и на обогрев до -7С </li>
+													<li>Воздушные фильтры </li>
+												</ul>
+												<div class="tovar-item__buttons">
+													<a href='#' class='button button_tranparent'>подробнее</a>
+													<a href='#' class='button button_yellow'>заказать</a>
+													<div class="clearfix"></div>
+												</div>
+											</div>
+										</div>	
+									</div>
+									<div class="item">
+										<div class="tovar-item">											
+											<div class="tovar-item__img">
+												<img src="img/tovar-item4.jpg" alt="">
+											</div>
+											<div class="tovar-item__txtbox">
+												<a href="#" class="tovar-item__name">Сплит-система «ZERTEN» BL-9</a>
+												<div class="tovar-item__pricebox">						
+													<span class="tovar-item__newprice">12 200 р.</span>
+												</div>
+												<ul class="tovar-item__characteristic">
+													<li>Современный внутренний блок с глянцевая лицевой панелью </li>
+													<li>Современный роторный компрессор </li>
+													<li>Низкий уровень шума </li>
+													<li>Работают на охлаждение от +21С и на обогрев до -7С </li>
+													<li>Воздушные фильтры </li>
+												</ul>
+												<div class="tovar-item__buttons">
+													<a href='#' class='button button_tranparent'>подробнее</a>
+													<a href='#' class='button button_yellow'>заказать</a>
+													<div class="clearfix"></div>
+												</div>
+											</div>
+										</div>	
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>		
+
+
 				<div class="footer">
 					<?php require_once('includes/footer.php'); ?> 
 				</div>
 			</div>
-		</body>
-		</html>
+		</div>
+	</body>
+	</html>
