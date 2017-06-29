@@ -65,6 +65,3 @@
 		В ближайшее время наш менеджер <br> свяжется с Вами.
 	</p>	
 </div>
-<script src="../libs/jquery/dist/jquery.js"></script>
-<script src="../js/popup.js"></script>
-<script src="../js/common.js"></script>

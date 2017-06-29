@@ -4,6 +4,27 @@
 	padding-bottom:20px;
 }
 
+.article{
+	width:100%;
+}
+
+.article .poluprom-item{
+	border:0;
+}
+
+.article .poluprom-item div:first-of-type{
+	width:25%;
+}
+
+.article .poluprom-item div:nth-of-type(2){
+	padding:0 15px;
+	width:75%;
+}
+
+.article div:first-of-type img{
+	height:100%;
+}
+
 .left-content p:first-of-type{
 	margin-bottom:20px;
 }
@@ -13,28 +34,49 @@
 	border:1px solid #d9d9d9;
 	float:left;
 	margin:20px 0;
-	padding:30px 0;
+	min-height:225px;
 }
 
 .poluprom-item div:first-of-type{
 	width:35%;
 	float:left;
-	height:100%;
+	height:225px;
+	overflow:hidden;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poluprom-item div:nth-of-type(2) p{
+	width:100%;
+    color:#666666;
+    margin-bottom:8px;
 }
 
 .poluprom-item div:nth-of-type(2){
 	float:left;
 	width:65%;
+	padding:30px 15px;
 }
 
 .poluprom-item img{
 	max-width:100%;
+}
+
+.service-page img{
+	height:100%;
 	float:left;
+	margin-top:0 !important;
+	max-width:none;
 }
 
 .poluprom-item a:first-of-type{
 	font-size:24px;
 	font-family:'Arsenal',sans serif;
+}
+
+.poluprom-item a:first-of-type:hover{
+	text-decoration:underline;
 }
 
 .poluprom-item p{
@@ -51,9 +93,12 @@
 }
 
 @media screen and (max-width: 500px){
-	.poluprom-item{padding:15px 5px;}
-	.poluprom-item div:first-of-type{width:100%;}
-	.poluprom-item div:nth-of-type(2){width:100%;text-align:center;}
-	.poluprom-item a:first-of-type{font-size:18px;text-align:left;}
+	.poluprom-item{height:auto;}
+	.poluprom-item div:first-of-type{width:100%;height:225px;}
+	.poluprom-item div:nth-of-type(2){width:100%;text-align:center;padding:15px;}
+	.poluprom-item a:first-of-type{font-size:18px;}
 	.poluprom-item p{font-size:13px;text-align:left;}
+	.service-page img{width:100%;}
+	.article .poluprom-item div:first-of-type{width:100%;}
+	.article .poluprom-item div:nth-of-type(2){width:100%;}
 }
