@@ -25,7 +25,7 @@
   max-width: 100%; }
 
 .split-catalog-right {
-  float: left;
+  float: right;
   width: 32%;
   margin: 10px 0 0 10px; }
 
@@ -49,7 +49,8 @@
   text-transform: uppercase;
   width: 250px;
   color: #fbd214;
-  margin-bottom: 5px; }
+  margin-bottom: 5px; 
+  float:left;}
 
 .split-catalog-sidebar1 h3 {
   font-size: 21px;

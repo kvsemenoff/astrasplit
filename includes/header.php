@@ -35,6 +35,8 @@
 <link rel="stylesheet" href="css/style-dh.css">
 <link rel="stylesheet" href="css/style-di.css">
 <link rel="stylesheet" href="css/style-dj.css">
+<link rel="stylesheet" href="css/poluprom.css">
+<link rel="stylesheet" href="css/split-catalog-style.css">
 <!-- styles end -->
 
 </head>

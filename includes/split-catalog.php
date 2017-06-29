@@ -1,14 +1,3 @@
-<head>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="../css/fonts.css">
-<link rel="stylesheet" href="../css/reset.css">
-<link rel="stylesheet" href="../block/h1/style.css">
-<link rel="stylesheet" href="../block/h2/style.css">
-<link rel="stylesheet" href="../block/h3/style.css">
-<link href="https://fonts.googleapis.com/css?family=Arsenal:400,700|Noto+Sans" rel="stylesheet">
-<link rel="stylesheet" href="../css/split-catalog-style.css">
-</head>
-<body>
 	<div class='split-catalog'>
 		<div class='split-catalog-left'>
 			<h1>Каталог сплит-систем и кондиционеров</h1>
@@ -113,4 +102,3 @@
 			</div>
 		</div>
 	</div>
-</body>
