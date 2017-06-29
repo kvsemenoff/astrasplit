@@ -1,6 +1,27 @@
 
 
 $(document).ready(function(){
+
+	$("form[name='popup_form']").submit(function() {
+			$data = $(this).serialize();
+			 $.ajax({
+			    type: "POST", 
+			    url: "../sendmessage.php", 
+			    data: $data,
+			    success: function() {
+			     cleanTnanks(this);
+			    }
+			   });
+			 return false;
+		});
+		 function cleanTnanks(form){
+		  $('form').parent().parent().hide();
+		  $("input[type=text]").val("");
+		  $("input[type=tel]").val("");
+		  $("textarea").val("");
+		  $('a[href="#thanks"]').trigger('click');
+		    // location = "thanks.php";
+		   };
 	
 
 	$(".switch__number .switch__button").on("click", function() {

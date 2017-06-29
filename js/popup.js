@@ -15,7 +15,7 @@ $(document).ready(function(){
 		$('.mask').remove();
 		$('.modal-window').hide();
 	});
-	$('body').on("click", ".mask", function(){
+	$('body').on("click", ".mask", function(e){
 		e.preventDefault();
 	$('.mask').remove();
 		$('.modal-window').hide();
