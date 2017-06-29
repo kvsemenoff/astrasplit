@@ -45,7 +45,6 @@
 										</div>
 									</div>
 
-
 									<div class="product__galery_rightbox">
 										<div class="product__galery_salebox">
 											<span>В период с 12 июня по 25 июня</span>
@@ -60,23 +59,144 @@
 												<div>
 													<img src="img/visa.jpg" alt="">
 												</div>
-												<span>Оформить в кредит, рассрочку</span>
+												<a href="#"><span>Оформить в кредит, рассрочку</span></a>
 											</div>
 											<div class="product__galery_delivery">
 												<div>
 													<img src="img/truck.jpg" alt="">
 												</div>
-												<span>Оформить в кредит, рассрочку</span>
+												<a href="#"><span>Доставка</span></a>
 											</div>
+											<div class="clearfix"></div>
 										</div>
 										<div class="product__galery_buttonsbox">
 											<a href="#" class="product__galery_buynow">Заказать товар</a>
 											<a href="#" class="product__galery_givesale">Получить скидку</a>
-											<a href="#" class="product__galery_addtocheck">Добавить к сравнению</a>
+											<div class="clearfix"></div>
+											<a href="#" class="product__galery_addtocheck"><span>Добавить к сравнению</span></a>
 										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								
+								<div class="product__tabblock">
+
+									<div class="product__tabslinks">
+										<a href="product__tab1">Характеристики</a>
+										<a href="product__tab2">Описание</a>
+										<a href="product__tab3" class="product__tabactive">Отзывы о товаре</a>
+										<a href="product__tab4">Сертификаты соответствия</a>
+									</div>
+
+									<div class="product__tabbox product__tab1">
+										<h4>Основные</h4>
+										<table class="table">
+											<tr>
+												<td>Мощность охлаждения</td>
+												<td>2.50 (1,1-3,1) кВт</td>
+											</tr>
+											<tr>
+												<td>Мощность обогрева</td>
+												<td>кВт:2.64 (1,3-3,3) кВт</td>
+											</tr>
+											<tr>
+												<td>На помещение до</td>
+												<td>кв.м:27</td>
+											</tr>
+											<tr>
+												<td>Потребляемая мощность при охлаждении</td>
+												<td>кВт:0,78</td>
+											</tr>
+											<tr>
+												<td>Потребляемая мощность при обогреве</td>
+												<td>кВт:0,77</td>
+											</tr>
+											<tr>
+												<td>Напряжение электропитания:</td>
+												<td>220В</td>
+											</tr>
+											<tr>
+												<td>Класс энергоэффективности </td>
+												<td>(A, B, C, D, F, G):A/A</td>
+											</tr>
+											<tr>
+												<td>Дополнительная информация</td>
+												<td>Сделан для морского климата (медный усиленный теплообменник, все детали наружного блока не коррозируют!); Антибактериальный фильтр; Расширенная гарантия на мотор 10 лет; Диапазон раб температуры нагрева: -5~24; 
+													Ионизатор PLUS; Автоочистка;
+												</td>
+											</tr>
+										</table>
+										<h4>режим работы</h4>
+										<table class="table">
+											<tr>
+												<td>Режимы работы:Охлаждение/Нагрев/Осушение</td>
+												<td>2.50 (1,1-3,1) кВт</td>
+											</tr>
+											<tr>
+												<td>Коэфф. энергетич. эффективности EER (охлаждение):</td>
+												<td>кВт:2.64 (1,3-3,3) кВт</td>
+											</tr>
+											<tr>
+												<td>Коэфф. энергетич. эффективности COP (обогрев)</td>
+												<td>кв.м:27</td>
+											</tr>
+											<tr>
+												<td>Частота:</td>
+												<td>кВт:0,78</td>
+											</tr>
+											<tr>
+												<td>Номинальный ток:</td>
+												<td>кВт:0,77</td>
+											</tr>											
+										</table>
+									</div>
+									
+									
+									<div class="product__tabbox product__tab3">
+										<a href="#" class="leave_message button button_blue">оставить отзыв</a>
+
+										<div class="product__commentbox">
+											<div>
+												<h4>Ксения</h4>
+												<span>12.09.2016 г</span>
+												<div class="clearfix"></div>
+											</div>
+											
+											<p>Главный критерий почему я его выбрала, потому что у него закрылка открываются снизу вверх, тем самым направила прямо впол 
+												вертикально, просто отлично... Напротив диван стоит, нелюблю когда прям на меня дует). Работает хорошо, тихо, недостатков пока не обнаружила. 
+											</p>
+										</div>
+										<div class="product__commentbox">
+											<div>
+												<h4>Арсений </h4>
+												<span>12.09.2016 г</span>
+												<div class="clearfix"></div>
+											</div>
+											
+											<p>Главный критерий почему я его выбрала, потому что у него закрылка открываются снизу вверх, тем самым направила прямо впол 
+												вертикально, просто отлично... Напротив диван стоит, нелюблю когда прям на меня дует). Работает хорошо, тихо, недостатков пока не обнаружила. 
+											</p>
+										</div>
+										
+										<div class="product__commentform">
+											<form action="#" method="post">
+												<h3>Оставить отзыв</h3>
+												<div class="product__commentleft">
+													<span>Ваше имя</span>
+													<input type="text">
+												</div>
+												<div class="product__commentright">
+													<span>Ваш e-mail</span>
+													<input type="text">
+												</div>
+												<textarea placeholder="Сообщение"></textarea>
+											</form>
+										</div>
+
 									</div>
 
 								</div>
+
 
 							</div>
 						</div>
