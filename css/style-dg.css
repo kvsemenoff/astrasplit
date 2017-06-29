@@ -553,8 +553,7 @@ textarea.contacts_textarea {
 .slider_item {
   width: 100%;
   background-size: cover;
-  height: 430px;
-  padding: 69px 0 55px 80px; }
+  height: 430px; }
 
 .slider_item1 {
   background: url(/img/slide1.jpg) 0 0 no-repeat; }
@@ -573,13 +572,13 @@ textarea.contacts_textarea {
 
 .prev-left {
   left: 0;
-  top: 50%;
+  bottom: 180px;
   margin-top: -65px;
   background: url(/img/arrow_left.png) 0 0 no-repeat; }
 
 .next-right {
   right: 0;
-  top: 50%;
+  bottom: 180px;
   margin-top: -65px;
   background: url(/img/arrow_right.png) 0 0 no-repeat; }
 
@@ -620,8 +619,8 @@ textarea.contacts_textarea {
 
 .main_slider .owl-carousel .owl-dots {
   position: absolute;
-  top: 358px;
-  left: 80px; }
+  bottom: 52px;
+  left: 98px; }
 
 .main_slider .owl-carousel .owl-dots .owl-dot {
   width: 29px;
@@ -638,5 +637,11 @@ textarea.contacts_textarea {
 
 .slider_item__descr2 {
   max-width: 375px; }
+
+.main_slider .owl-controls.container {
+  position: relative; }
+
+.slider_container {
+  padding: 68px 0 55px 98px; }
 
 /*# sourceMappingURL=style-dg.css.map */

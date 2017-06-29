@@ -247,11 +247,12 @@ $(document).ready(function(){
         nav:true,
         dots: true,
         smartSpeed:1000,
-        margin:10,
         autoWidth: false,
         mouseDrag:false,
         touchDrag: false,
         center:false,
         navText:['<span class="prev-left"></span>','<span class="next-right"></span>'],
     });
+	$('.main_slider .owl-controls').addClass('container');
+	$('.main_slider .owl-nav').width($('.main_slider .owl-nav').parent('.container').width());
 });
