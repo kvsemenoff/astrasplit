@@ -148,4 +148,35 @@ $(document).ready(function(){
 		e.preventDefault();
 		$(this).parent().hide();
 	});
+
+	/* Yandex Map */
+    ymaps.ready(init);
+
+    function init() {
+        var center = [46.361049, 48.053696];
+        var myMap = new ymaps.Map('mape', {
+            center: center,
+            controls: [],
+            zoom: 16,
+            controls: ['smallMapDefaultSet']
+        }, {
+            searchControlProvider: 'yandex#search'
+
+        });
+
+        myMap.behaviors.disable('scrollZoom');
+
+        var myPlacemark = new ymaps.Placemark(center, {
+            // Свойства.
+            // Содержимое иконки, балуна и хинта.
+            balloonContent: 'улица Анри Барбюса 34',
+            hintContent: 'улица Анри Барбюса 34'
+        }, {
+            // Опции.
+            // preset: 'twirl#violetIcon'
+        });
+
+        myMap.geoObjects.add(myPlacemark);
+    }
+
 });

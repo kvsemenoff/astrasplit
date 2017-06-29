@@ -15,7 +15,7 @@
                     <li><a href="" class="current">Сервисный центр</a></li>
                 </ul>
             </div>
-            <main class="contacts_main">
+            <main class="contacts_main clearfix">
                 <h1 class="contacts_h1">Контакты</h1>
                 <div class="col-md-7">
                     <div class="contacts_info">
@@ -42,11 +42,20 @@
                                 <p class="contacts_workdays__descr contacts_workdays__office">Анри Барбюса 34 (вход с торца) ненастоящий адрес</p>
                             </div>
                         </div>
-                        <div class="contacts_map"></div>
+                        <div id="mape" class="contacts_map"></div>
                     </div>
                 </div>
                 <div class="col-md-5">
-                    <div class="contacts_callback"></div>
+                    <div class="contacts_callback">
+                        <div class="contacts_form">
+                            <div class="contacts_form-header">
+                                <p class="contacts_form-header__title">Обратная связь</p>
+                                <p class="contacts_form-header__promo">Менеджер свяжется с Вами и ответит
+                                    на все интересующие вопросы</p>
+                            </div>
+                            <div class="contacts_form-body"></div>
+                        </div>
+                    </div>
                 </div>
             </main>
         </div>
