@@ -200,6 +200,7 @@ $(document).ready(function(){
 		$('.header_menu').css("transition", "0.5s");
 	});
 	$('a.arrowed').on("click", function (e){
+        e.preventDefault();
 		$(this).parent().find("ul.header_submenu").slideToggle();
 		$(this).parent().find(".header_menu__link").toggleClass("on_slide");
 	});
