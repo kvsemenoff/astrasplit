@@ -38,6 +38,7 @@
     width: 555px;
     height: auto; } }
 #thanks {
+<<<<<<< HEAD
   text-align: center;
   height: 150px;
   padding-top: 30px; }
@@ -49,6 +50,15 @@
 
 .popup-title {
   width: 100%;
+=======
+  text-align: center; }
+
+#thanks .popup-title {
+  margin-top: 20px; }
+
+.popup-title {
+  width: 525px;
+>>>>>>> 5d61371b5160b33fe27f0924453f39ec67311364
   float: left;
   padding: 15px 15px 25px 15px;
   background-repeat: no-repeat;
@@ -56,10 +66,86 @@
   text-align: center;
   position: relative; }
 
+<<<<<<< HEAD
 .popup-title1 {
   color: #24242d;
   font-size: 24px;
   padding-bottom: 18px; }
+=======
+#order_call .popup-title {
+  background-image: url(../img/get-call-bg.jpg);
+  color: #24242d; }
+
+#send_prop .popup-title {
+  background-image: url(../img/popup-bg1.jpg);
+  color: white; }
+
+#send_prop h2, #get_discount h2 {
+  color: white; }
+
+#get_discount .popup-title {
+  background-image: url(../img/popup-bg2.jpg);
+  color: white; }
+
+#send_prop .modal-close, #get_discount .modal-close {
+  background-image: url(../img/remove_icon-white.png) !important; }
+
+.get-call-logo {
+  background-image: url(../img/phone-receiver.png);
+  background-repeat: no-repeat;
+  border: 1px solid #987d1c;
+  background-position: 50% 50%;
+  border-radius: 100%;
+  padding: 28px;
+  position: absolute;
+  top: 20%;
+  left: 18%;
+  z-index: 20; }
+
+.popup-title h2 {
+  margin: 0;
+  font-size: 26px;
+  text-indent: -15px; }
+
+.popup-title p {
+  text-indent: 40px;
+  font-family: 'Arsenal', sans serif; }
+
+.popup-content {
+  padding: 20px 20px 40px 100px;
+  float: left; }
+
+.popup-content form {
+  width: 360px; }
+
+.popup-content span {
+  color: #298fde;
+  font-size: 25px; }
+
+.popup-content input[type='text'], .popup-content input[type='tel'] {
+  width: 360px;
+  margin-bottom: 13px; }
+
+.popup-content p {
+  font-size: 14px; }
+
+.popup-content p a {
+  text-decoration: underline;
+  color: #9ec5ed; }
+
+.nes-input {
+  font-size: 15px;
+  margin-top: 20px;
+  float: left; }
+
+.popup-content .button {
+  float: right;
+  margin-top: 20px;
+  min-width: 165px; }
+
+.popup-content input[type='submit'] {
+  border: 0; }
+>>>>>>> 5d61371b5160b33fe27f0924453f39ec67311364
 
 #order_call .popup-title {
   background-image: url(../img/get-call-bg.jpg);

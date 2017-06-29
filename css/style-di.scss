@@ -4,29 +4,32 @@ $a-c: #333333;
 $a-c-a: #298fde;
 
 
-#breadcrumbs {
-    text-align: center;
+.breadcrumbs-di {
+	ul{
+		li{
+			display: inline-block;
+    		//padding: 0 6px; 
+    	}
+    	a{
+    		font-size: 16px;
+    	}
+    	.current{
+    		cursor: default;
+    		
+    		font-size: 16px;
+    		color: #333; 
+    	}
+    	.uncurrent:after{
+    		content: "/";  
+    		color: #333;  
+    		font-size: 20px;  
+    		padding-left: 10px;
+    		padding-right: 7px;
+    		
+    	}
+    }
 }
-#breadcrumbs ul {
-    display: inline-table;
-    list-style: none outside none;
-}
-#breadcrumbs ul li {
-    display: inline;
-}
-#breadcrumbs ul li a {
-	display: block;
-	float: left;
-	height: 50px;
-	background: #3498db;
-	text-align: center;
-	padding: 30px 40px 0 40px;
-	position: relative;
-	margin: 0 10px 0 0; 
-	font-size: 20px;
-	text-decoration: none;
-	color: #fff;
-}
+
 
 
 
