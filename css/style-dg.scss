@@ -2,7 +2,7 @@
   padding-bottom: 30px;
   padding-top: 15px;
   @media screen and (min-width: 1200px) {
-    padding-top: 22px;
+    padding-top: 28px;
     padding-bottom: 12px;
   }
 }
@@ -270,14 +270,14 @@
 }
 .header_info {
   @media screen and (min-width: 1200px) {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
 }
 .header_compare__callback {
-  margin-top: 27px;
+  margin-top: 24px;
 }
 .button.button_blue {
-  padding: 15px 16px 16px 16px;
+  padding: 14px 16px 14px 16px;
   font-size: 12px;
   display: inline-block;
   @media screen and (min-width: 992px) {
@@ -360,7 +360,9 @@
     padding: 0;
   }
   .col-md-5 {
-    max-width: 460px;
+    @media screen and (min-width: 1200px) {
+      max-width: 460px;
+    }
   }
   .col-md-7 {
     max-width: 655px;
@@ -373,10 +375,10 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
-  margin-bottom: 44px;
+  margin-bottom: 40px;
 }
 .contacts_workdays {
-  margin-bottom: 42px;
+  margin-bottom: 40px;
 }
 .contacts_email {
   margin-bottom: 22px;
@@ -385,12 +387,16 @@
   margin-bottom: 32px;
 }
 .contacts_workdays__title {
-  float: left;
+  @media screen and (min-width: 1200px) {
+    float: left;
+  }
 }
 .contacts_workdays__descr {
-  float: right;
-  text-align: left;
-  width: 350px;
+  @media screen and (min-width: 1200px) {
+    float: right;
+    text-align: left;
+    width: 410px;
+  }
 }
 .contacts_workdays__title {
   color: #333;
@@ -407,6 +413,7 @@
   font-weight: 400;
   line-height: 20px;
 }
+
 .contacts_workdays__phone {
   font-family: "ArialRegular";
   color: #333;
@@ -442,12 +449,18 @@
 }
 .contacts_callback {
   max-width: 455px;
+  @media screen and (max-width: 1199px) {
+    margin: auto;
+  }
 }
 .contacts_form {
   box-shadow: 0 0 6px rgba(16, 16, 16, 0.2);
 }
 .contacts_form-body {
-  padding: 22px 46px 34px 46px;
+  padding: 18px 20px 34px 20px;
+  @media screen and (min-width: 1200px) {
+    padding: 18px 46px 34px 50px;
+  }
 }
 .contacts_form-header__text {
   display: inline-block;
@@ -471,9 +484,12 @@
 .contacts_form-header__title {
   color: #333;
   font-family: "Arsenal";
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 36px;
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+  }
 }
 .contacts_form-header__promo {
   color: #333;
@@ -487,14 +503,14 @@ input[type='text'].contacts_input {
   margin-bottom: 20px;
 }
 input[type='text'].contacts_name {
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 .contacts_label {
   font-family: "Arsenal";
   color: #333;
   font-size: 16px;
   font-weight: 400;
-  line-height: 26px;
+  line-height: 30px;
   &:after {
     content: '*';
     color: #298fde;
@@ -507,7 +523,7 @@ input[type='text'].contacts_name {
 }
 textarea.contacts_textarea {
   height: 108px;
-  margin-bottom: 15px;
+  margin-bottom: 9px;
 }
 .contacts_form__descr {
   font-family: "Arsenal";
@@ -550,7 +566,22 @@ textarea.contacts_textarea {
   font-weight: 400;
   line-height: 22px;
   text-transform: uppercase;
-  float: right;
   margin-bottom: 0;
   padding: 8px 40px;
+  margin-top: 10px;
+  @media screen and (min-width: 480px){
+    float: right;
+    margin-top: 0;
+  }
+}
+.contacts_content {
+  .header_top {
+    padding-bottom: 20px;
+  }
+}
+.contacts_h1 {
+  margin-top: 26px;
+}
+.contacts_phone {
+  margin-bottom: 18px;
 }

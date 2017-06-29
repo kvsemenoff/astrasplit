@@ -6,7 +6,7 @@
     <title>Контакты</title>
     <?php require_once('includes/header.php'); ?>
 <div class="wrapper">
-    <div class="content">
+    <div class="content contacts_content">
         <?php require_once('includes/header-top.php'); ?>
         <div class="container">
             <div class="breadcrumbs-di">
@@ -55,7 +55,7 @@
                                         на все интересующие вопросы</p>
                                 </div>
                             </div>
-                            <div class="contacts_form-body">
+                            <div class="contacts_form-body clearfix">
                                 <form action="/" method="post">
                                     <label for="contacts_phone" class="contacts_label">Телефон</label>
                                     <input id="contacts_phone" type="text" class="contacts_input contacts_phone js-phone">
