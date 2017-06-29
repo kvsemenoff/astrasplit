@@ -33,7 +33,7 @@
                     <span class="header_compare__count">0 позиций</span>
                 </div>
                 <div class="header_compare__callback">
-                    <a href='#' class='button button_blue'>заказать звонок</a>
+                    <a href='#order_call' data-modal="modal" class='button button_blue'>заказать звонок</a>
                     <a href="#" class="hamburger hidden-lg">
                             <span class="menu-global menu-top"></span>
                             <span class="menu-global menu-middle"></span>
