@@ -82,10 +82,9 @@
 
 
 <?php require_once('popup.php'); ?>
-<script src="https://api-maps.yandex.ru/2.1/?lang=tr_TR" type="text/javascript"></script>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 <!-- scripts start -->
 <script src="libs/jquery/jquery-1.11.1.min.js"></script>
-<script src="libs/youtube/youtube.js"></script>
 <script src="libs/owl.carousel/owl.carousel.js"></script>
 <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
 <script src="libs/select/jquery.selectric.min.js"></script>

@@ -9,6 +9,7 @@
 	<div class="wrapper">
 		<div class="content">
             <?php require_once('includes/header-top.php'); ?>
+            <?php require_once('includes/main-slider.php'); ?>
 			<?php require_once('includes/popular.php'); ?>
 			<?php require_once('includes/main-news.php'); ?>
 			<?php require_once('includes/service-center.php'); ?>

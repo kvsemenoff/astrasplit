@@ -251,6 +251,9 @@
 
 .header_compare__callback {
   margin-top: 24px; }
+  @media screen and (max-width: 1199px) {
+    .header_compare__callback {
+      margin-top: 20px; } }
 
 .button.button_blue {
   padding: 14px 16px 14px 16px;
@@ -545,5 +548,95 @@ textarea.contacts_textarea {
 
 .contacts_phone {
   margin-bottom: 18px; }
+
+/* Slider */
+.slider_item {
+  width: 100%;
+  background-size: cover;
+  height: 430px;
+  padding: 69px 0 55px 80px; }
+
+.slider_item1 {
+  background: url(/img/slide1.jpg) 0 0 no-repeat; }
+
+.slider_item2 {
+  background: url(/img/slide2.jpg) 0 0 no-repeat; }
+
+.slider_container {
+  position: relative; }
+
+.prev-left, .next-right {
+  width: 29px;
+  height: 99px;
+  display: inline-block;
+  position: absolute; }
+
+.prev-left {
+  left: 0;
+  top: 50%;
+  margin-top: -65px;
+  background: url(/img/arrow_left.png) 0 0 no-repeat; }
+
+.next-right {
+  right: 0;
+  top: 50%;
+  margin-top: -65px;
+  background: url(/img/arrow_right.png) 0 0 no-repeat; }
+
+.slider_item__title {
+  color: #fff;
+  font-family: "Arsenal";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  max-width: 350px;
+  margin-bottom: 30px; }
+  @media screen and (min-width: 992px) {
+    .slider_item__title {
+      font-size: 50px;
+      line-height: 46px; } }
+
+.slider_item__descr {
+  color: #fff;
+  font-family: "Arsenal";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  max-width: 350px; }
+  @media screen and (min-width: 992px) {
+    .slider_item__descr {
+      font-size: 22px;
+      line-height: 26px; } }
+
+.slider_btn {
+  color: #333;
+  font-family: "ArialRegular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
+  padding: 8px 34px 7px 33px;
+  margin-top: 32px; }
+
+.main_slider .owl-carousel .owl-dots {
+  position: absolute;
+  top: 358px;
+  left: 80px; }
+
+.main_slider .owl-carousel .owl-dots .owl-dot {
+  width: 29px;
+  height: 8px;
+  display: inline-block;
+  margin-right: 12px;
+  background: #999; }
+
+.main_slider .owl-carousel .owl-dots .owl-dot.active {
+  background-color: #333; }
+
+.slider_item__title2, .slider_item__descr2 {
+  color: #333; }
+
+.slider_item__descr2 {
+  max-width: 375px; }
 
 /*# sourceMappingURL=style-dg.css.map */

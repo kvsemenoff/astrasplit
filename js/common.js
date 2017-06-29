@@ -208,4 +208,19 @@ $(document).ready(function(){
         myMap.geoObjects.add(myPlacemark);
     }
 
+    /* Slider */
+    var owlSlider = $(".owl-carousel");
+    owlSlider.owlCarousel({
+		items: 1,
+        loop:true,
+        nav:true,
+        dots: true,
+        smartSpeed:1000,
+        margin:10,
+        autoWidth: false,
+        mouseDrag:false,
+        touchDrag: false,
+        center:false,
+        navText:['<span class="prev-left"></span>','<span class="next-right"></span>'],
+    });
 });
