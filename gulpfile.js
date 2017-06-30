@@ -66,7 +66,7 @@ var css_libs = new Array(
   'libs/select/selectric.css',
   'libs/rangeslider/ion.rangeSlider.css',
   'libs/rangeslider/ion.rangeSlider.skinFlat.css',
-  'libs/select/selectric.css',
+  'libs/select/selectric.css'
 
 );
 
@@ -113,6 +113,7 @@ var gulp = require('gulp'),
 	replace = require('gulp-replace'),
 	fileinclude = require('gulp-file-include'),
 	imagemin     = require('gulp-imagemin'),
+  chmod = require('gulp-chmod'),
 	browserSync = require('browser-sync').create();
 
 //Компиляция SCSS в CSS
@@ -296,7 +297,7 @@ gulp.task('watch', ['browser-sync','sass', 'fileinclude'], function() {
 });
 
 gulp.task('zip', () =>
-    gulp.src(['product/*/**.*', 'product/*'])
+    gulp.src(['product/**/**.*', 'product/*'])
         .pipe(zip('archive.zip'))
         .pipe(gulp.dest('product/'))
 );
