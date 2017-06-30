@@ -52,7 +52,6 @@
 
 .popup-title {
   width: 100%;
->>>>>>> 5d61371b5160b33fe27f0924453f39ec67311364
   float: left;
   padding: 15px 15px 25px 15px;
   background-repeat: no-repeat;
@@ -60,7 +59,6 @@
   text-align: center;
   position: relative; }
 
-<<<<<<< HEAD
 .popup-title1 {
   color: #24242d;
   font-size: 24px;
@@ -106,15 +104,15 @@
   font-family: 'Arsenal', sans serif; }
 
 .popup-content {
-  width:100%; 
-  float:left;
-  height:100%;
-  padding:20px 0;}
+  width: 100%;
+  float: left;
+  height: 100%;
+  padding: 20px 0; }
 
 .popup-content form {
-  width: 360px; 
-  display:block;
-  margin:auto;}
+  width: 360px;
+  display: block;
+  margin: auto; }
 
 .popup-content span {
   color: #298fde;
@@ -139,12 +137,10 @@
 .popup-content .button {
   float: right;
   margin-top: 20px;
-  min-width: 165px; 
-}
+  min-width: 165px; }
 
 .popup-content input[type='submit'] {
   border: 0; }
->>>>>>> 5d61371b5160b33fe27f0924453f39ec67311364
 
 #order_call .popup-title {
   background-image: url(../img/get-call-bg.jpg);
@@ -162,8 +158,8 @@
   color: white; }
 
 #get_discount .button {
-  float: none; 
-  display:inline-block;}
+  float: none;
+  display: inline-block; }
 
 .popup-content div {
   text-align: center; }
@@ -234,13 +230,26 @@
 a[href='#thanks'] {
   display: none; }
 
-@media screen and (max-width:500px){
-  .popup-content form{width:270px;}
-  .popup-content input[type='text'], .popup-content input[type='tel']{width:270px;}
-  .nes-input{margin-top:10px;}
-  .popup-content .button{padding:10px 12px; width:100%;}
-  .get-call-logo{display:none;}
-  .popup-title p{text-indent:0;}
-}
+@media screen and (max-width: 500px) {
+  .popup-content form {
+    width: 270px; }
+
+  .popup-content input[type='text'], .popup-content input[type='tel'] {
+    width: 270px; }
+
+  .nes-input {
+    margin-top: 10px; }
+
+  .popup-content .button {
+    padding: 10px 12px;
+    width: 100%; }
+
+  .get-call-logo {
+    display: none; }
+
+  .popup-title p {
+    text-indent: 0; } }
+.popup_form img {
+  width: 100%; }
 
 /*# sourceMappingURL=popup.css.map */
