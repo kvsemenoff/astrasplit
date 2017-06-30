@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="746ebedd-af45-4f34-a90a-9f778811c752" name="Default" comment="structure - added outer.js">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contacts.php" afterPath="$PROJECT_DIR$/contacts.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-di.css" afterPath="$PROJECT_DIR$/css/style-di.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-di.css.map" afterPath="$PROJECT_DIR$/css/style-di.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-di.scss" afterPath="$PROJECT_DIR$/css/style-di.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/footer.php" afterPath="$PROJECT_DIR$/includes/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/header.php" afterPath="$PROJECT_DIR$/includes/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,8 +35,8 @@
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="98" column="7" lean-forward="false" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
+            <state relative-caret-position="-1323">
+              <caret line="35" column="70" lean-forward="false" selection-start-line="35" selection-start-column="70" selection-end-line="35" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -325,12 +329,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498580638403</updated>
-      <workItem from="1498580640163" duration="68374000" />
+      <workItem from="1498580640163" duration="68419000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68374000" />
+    <option name="totallyTimeSpent" value="68419000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -819,8 +823,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="98" column="7" lean-forward="false" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
+        <state relative-caret-position="-1323">
+          <caret line="35" column="70" lean-forward="false" selection-start-line="35" selection-start-column="70" selection-end-line="35" selection-end-column="70" />
           <folding />
         </state>
       </provider>
