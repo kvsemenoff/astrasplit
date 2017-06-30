@@ -23,7 +23,6 @@
                             <li><a href="">Новости</a></li>
                             <li><a href="">Статьи</a></li>
                             <li><a href="">Отзывы</a></li>
-                            <li><a href="">Контакты</a></li>
                         </ul>
                     </div>
                 </div>
