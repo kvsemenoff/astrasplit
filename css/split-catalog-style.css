@@ -1,9 +1,10 @@
 .split-catalog {
-  padding-left: 5px; }
+  padding-left: 5px;
+  margin-top: 40px; }
 
 .split-catalog-left {
   float: left;
-  width: 67%; }
+  width: 67.5%; }
 
 .split-catalog-item {
   text-align: center;
@@ -26,7 +27,7 @@
 
 .split-catalog-right {
   float: right;
-  width: 32%;
+  width: 31%;
   margin: 10px 0 0 10px; }
 
 .split-catalog-sidebar1, .split-catalog-sidebar2 {
@@ -49,8 +50,8 @@
   text-transform: uppercase;
   width: 250px;
   color: #fbd214;
-  margin-bottom: 5px; 
-  float:left;}
+  margin-bottom: 5px;
+  float: left; }
 
 .split-catalog-sidebar1 h3 {
   font-size: 21px;
@@ -66,5 +67,9 @@
   width: 200px;
   font-size: 27px;
   margin-bottom: 10px; }
+
+@media screen and (max-width: 1300px) {
+  .split-catalog {
+    display: none; } }
 
 /*# sourceMappingURL=split-catalog-style.css.map */

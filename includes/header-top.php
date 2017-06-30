@@ -2,10 +2,10 @@
     <div class="container">
         <div class="header_info clearfix">
             <div class="header_logo">
-                <a href="#" class="hidden-xs header_logo__link">
+                <a href="/" class="hidden-xs header_logo__link">
                     <img src="/img/main_logo.png" alt="Астрасплит" class="header_logo__img">
                 </a>
-                <a href="#" class="hidden-sm hidden-md hidden-lg header_logo__link">
+                <a href="/" class="hidden-sm hidden-md hidden-lg header_logo__link">
                     <img src="/img/logo_mobile.png" alt="Астрасплит" class="header_logo__img">
                 </a>
             </div>
@@ -34,6 +34,7 @@
                 </div>
                 <div class="header_compare__callback">
                     <a href='#order_call' data-modal="modal" class='button button_blue'>заказать звонок</a>
+                    <a href='#thanks' data-modal="modal"></a>
                     <a href="#" class="hamburger hidden-lg">
                             <span class="menu-global menu-top"></span>
                             <span class="menu-global menu-middle"></span>

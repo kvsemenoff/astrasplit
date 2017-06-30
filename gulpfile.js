@@ -1,67 +1,73 @@
 
 var css_our = new Array(
-	'css/reset.css',
 	'css/fonts.css',
-	'css/style.css',
-	'popup.css',
-	'poluprom.css',
-	'css/split-catalog-style.css',
-	'block/button/style.css',
-	'block/checkbox/style.css',
-	'block/h1/style.css',
-	'block/h2/style.css',
-	'block/h3/style.css',
-	'block/h4/style.css',
-	'block/input/style.css',
-    'block/ol/style.css',
-	'block/search-form/style.css',
-	'block/table/style.css',
-	'block/textarea/style.css',
-	'block/tovar-item/style.css',
-	'block/ul/style.css',
-	'css/style-db.css',
-	'css/style-dd.css',
-	'css/style-de.css',
-	'css/style-df.css',
-	'css/style-dg.css',
-	'css/style-di.css',
+  'css/style.css',
+  'css/popup.css',
+  'block/a/style.css',
+  'block/button/style.css',
+  'block/checkbox/style.css',
+  'block/h1/style.css',
+  'block/h2/style.css',
+  'block/h3/style.css',
+  'block/h4/style.css',
+  'block/input/style.css',
+  'block/ol/style.css',
+  'block/search-form/style.css',
+  'block/table/style.css',
+  'block/textarea/style.css',
+  'block/tovar-item/style.css',
+  'css/style-db.css',
+  'css/style-dc.css',
+  'css/style-dd.css',
+  'css/style-de.css',
+  'css/style-df.css',
+  'css/style-dg.css',
+  'css/style-dh.css',
+  'css/style-di.css',
+  'css/style-dj.css',
+  'css/poluprom.css',
+  'css/split-catalog-style.css'
 );
 
 var scss_our = new Array(
-    'css/reset.scss',
-    'css/fonts.scss',
-    'css/style.scss',
-    'popup.scss',
-    'poluprom.scss',
-    'css/split-catalog-style.scss',
-    'block/button/style.scss',
-    'block/checkbox/style.scss',
-    'block/h1/style.scss',
-    'block/h2/style.scss',
-    'block/h3/style.scss',
-    'block/h4/style.scss',
-    'block/input/style.scss',
-    'block/ol/style.scss',
-    'block/search-form/style.scss',
-    'block/table/style.scss',
-    'block/textarea/style.scss',
-    'block/tovar-item/style.scss',
-    'block/ul/style.scss',
-    'css/style-db.scss',
-    'css/style-dd.scss',
-    'css/style-de.scss',
-    'css/style-df.scss',
-    'css/style-dg.scss',
-    'css/style-di.scss',
+   'css/fonts.scss',
+  'css/style.scss',
+  'css/popup.scss',
+  'block/a/style.scss',
+  'block/button/style.scss',
+  'block/checkbox/style.scss',
+  'block/h1/style.scss',
+  'block/h2/style.scss',
+  'block/h3/style.scss',
+  'block/h4/style.scss',
+  'block/input/style.scss',
+  'block/ol/style.scss',
+  'block/search-form/style.scss',
+  'block/table/style.scss',
+  'block/textarea/style.scss',
+  'block/tovar-item/style.scss',
+  'css/style-db.scss',
+  'css/style-dc.scss',
+  'css/style-dd.scss',
+  'css/style-de.scss',
+  'css/style-df.scss',
+  'css/style-dg.scss',
+  'css/style-dh.scss',
+  'css/style-di.scss',
+  'css/style-dj.scss',
+  'css/poluprom.scss',
+  'css/split-catalog-style.scss'
 );
 var css_libs = new Array(
-	'libs/bootstrap/bootstrap-grid-3.3.1.min.css',
-	'libs/font-awesome/font-awesome.min.css',
-	'libs/fancybox/jquery.fancybox.css',
-	'libs/owl.carousel/assets/owl.carousel.css',
-	'libs/rangeslider/ion.rangeSlider.css',
-	'libs/rangeslider/ion.rangeSlider.skinFlat.css',
-	'libs/select/selectric.css'
+	'css/reset.css',
+  'libs/bootstrap/bootstrap-grid-3.3.1.min.css',
+  'libs/fancybox/jquery.fancybox.css',
+  'libs/owl.carousel/assets/owl.carousel.css',
+  'libs/select/selectric.css',
+  'libs/rangeslider/ion.rangeSlider.css',
+  'libs/rangeslider/ion.rangeSlider.skinFlat.css',
+  'libs/select/selectric.css'
+
 );
 
 var css_all = css_libs.concat(css_our); 
@@ -71,18 +77,18 @@ var css_style_name = 'style.min.css';
 
 //файлы js-скриптов
 var js_our = new Array(
-	'js/popup.js',
 	'js/fonts.js',
-	'js/common.js'
+  'js/popup.js',
+  'js/common.js'
 );
 var js_libs = new Array(
 	'libs/jquery/jquery-1.11.1.min.js',
-	'libs/owl.carousel/owl.carousel.js',
-	'libs/fancybox/jquery.fancybox.pack.js',
-	'libs/select/jquery.selectric.min.js',
-	'libs/rangeslider/ion.rangeSlider.js',
-	'js/jquery.maskedinput.min.js',
-	'js/responsiveTabs.js'
+  'libs/owl.carousel/owl.carousel.js',
+  'libs/fancybox/jquery.fancybox.pack.js',
+  'libs/select/jquery.selectric.min.js',
+  'js/jquery.maskedinput.min.js',
+  'libs/rangeslider/ion.rangeSlider.js',
+  'libs/select/jquery.selectric.min.js'
 );
 var js_all = js_libs.concat(js_our);
 
@@ -107,6 +113,7 @@ var gulp = require('gulp'),
 	replace = require('gulp-replace'),
 	fileinclude = require('gulp-file-include'),
 	imagemin     = require('gulp-imagemin'),
+  chmod = require('gulp-chmod'),
 	browserSync = require('browser-sync').create();
 
 //Компиляция SCSS в CSS
@@ -290,7 +297,7 @@ gulp.task('watch', ['browser-sync','sass', 'fileinclude'], function() {
 });
 
 gulp.task('zip', () =>
-    gulp.src(['product/*/**.*', 'product/*'])
+    gulp.src(['product/**/**.*', 'product/*'])
         .pipe(zip('archive.zip'))
         .pipe(gulp.dest('product/'))
 );

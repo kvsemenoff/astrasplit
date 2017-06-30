@@ -26,7 +26,6 @@
 <link rel="stylesheet" href="block/table/style.css">
 <link rel="stylesheet" href="block/textarea/style.css">
 <link rel="stylesheet" href="block/tovar-item/style.css">
-<!--	<link rel="stylesheet" href="block/ul/style.css">-->
 <link rel="stylesheet" href="css/style-db.css">
 <link rel="stylesheet" href="css/style-dc.css">
 <link rel="stylesheet" href="css/style-dd.css">

@@ -14,8 +14,20 @@ $(document).ready(function(){
 			   });
 			 return false;
 		});
+    $("form[name='contact_form']").submit(function() {
+        $data = $(this).serialize();
+        $.ajax({
+            type: "POST",
+            url: "../sendmessage.php",
+            data: $data,
+            success: function() {
+                cleanTnanks(this);
+            }
+        });
+        return false;
+    });
 		 function cleanTnanks(form){
-		  $('form').parent().parent().hide();
+		  $("form[name='popup_form']").parent().parent().hide();
 		  $("input[type=text]").val("");
 		  $("input[type=tel]").val("");
 		  $("textarea").val("");
@@ -200,6 +212,7 @@ $(document).ready(function(){
 		$('.header_menu').css("transition", "0.5s");
 	});
 	$('a.arrowed').on("click", function (e){
+        e.preventDefault();
 		$(this).parent().find("ul.header_submenu").slideToggle();
 		$(this).parent().find(".header_menu__link").toggleClass("on_slide");
 	});
@@ -238,4 +251,20 @@ $(document).ready(function(){
         myMap.geoObjects.add(myPlacemark);
     }
 
+    /* Slider */
+    var owlSlider = $(".owl-carousel");
+    owlSlider.owlCarousel({
+		items: 1,
+        loop:true,
+        nav:true,
+        dots: true,
+        smartSpeed:1000,
+        autoWidth: false,
+        mouseDrag:false,
+        touchDrag: false,
+        center:false,
+        navText:['<span class="prev-left"></span>','<span class="next-right"></span>'],
+    });
+	$('.main_slider .owl-controls').addClass('container');
+	$('.main_slider .owl-nav').width($('.main_slider .owl-nav').parent('.container').width());
 });

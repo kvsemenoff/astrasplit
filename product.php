@@ -71,7 +71,7 @@
 										</div>
 										<div class="product__galery_buttonsbox">
 											<a href="#" class="product__galery_buynow">Заказать товар</a>
-											<a href="#" class="product__galery_givesale">Получить скидку</a>
+											<a href="#get_discount" class="product__galery_givesale" data-modal="modal">Получить скидку</a>
 											<div class="clearfix"></div>
 											<a href="#" class="product__galery_addtocheck"><span>Добавить к сравнению</span></a>
 										</div>
@@ -367,7 +367,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="productsimilar">
-								<h1>Похожие товары</h1>
+								<h1 class="productsimilar_cap">Похожие товары</h1>
 								<div class="owl-productsimilar">
 									<div class="item">
 										<div class="tovar-item">
