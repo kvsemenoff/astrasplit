@@ -248,7 +248,10 @@ a[href='#thanks'] {
     display: none; }
 
   .popup-title p {
-    text-indent: 0; } }
+    text-indent: 0; }
+
+  .modal-window {
+    overflow-y: scroll; } }
 .popup_form img {
   width: 100%; }
 
