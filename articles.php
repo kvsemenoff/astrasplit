@@ -16,7 +16,7 @@
             			<h1>Статьи</h1>
 						<div class='poluprom-item'>
 							<div>
-								<img src='img/article1.jpg' alt='Картинка статьи' />
+								<a href='#'><img src='img/article1.jpg' alt='Картинка статьи' /></a>
 							</div>
 							<div>
 								<p>20.06.2017</p>
@@ -27,7 +27,7 @@
 						</div>
 						<div class='poluprom-item'>
 							<div>
-								<img src='img/article2.jpg' alt='Картинка статьи' />
+								<a href='#'><img src='img/article2.jpg' alt='Картинка статьи' /></a>
 							</div>
 							<div>
 								<p>20.06.2017</p>
@@ -38,7 +38,7 @@
 						</div>
 						<div class='poluprom-item'>
 							<div>
-								<img src='img/article3.jpg' alt='Картинка статьи' />
+								<a href='#'><img src='img/article3.jpg' alt='Картинка статьи' /></a>
 							</div>
 							<div>
 								<p>20.06.2017</p>

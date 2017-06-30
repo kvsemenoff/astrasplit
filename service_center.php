@@ -19,7 +19,7 @@
 						особенность, распознавать определенные образцы и повторения.</p>
 						<div class='poluprom-item service-page'>
 							<div>
-								<img src='img/service1.jpg' alt='Сервисный центр' />
+								<a href='#'><img src='img/service1.jpg' alt='Сервисный центр' /></a>
 							</div>
 							<div>
 								<a href='#'>Обслуживание и чистка сплит систем</a>
@@ -31,7 +31,7 @@
 						</div>
 						<div class='poluprom-item service-page'>
 							<div>
-								<img src='img/service2.jpg' alt='Сервисный центр' />
+								<a href='#'><img src='img/service2.jpg' alt='Сервисный центр' /></a>
 							</div>
 							<div>
 								<a href='#'>Установка сплит-систем</a>
@@ -43,7 +43,7 @@
 						</div>
 						<div class='poluprom-item service-page'>
 							<div>
-								<img src='img/service3.jpg' alt='Сервисный центр' />
+								<a href='#'><img src='img/service3.jpg' alt='Сервисный центр' /></a>
 							</div>
 							<div>
 								<a href='#'>Установка сплит-систем в два этапа</a>
@@ -55,7 +55,7 @@
 						</div>
 						<div class='poluprom-item service-page'>
 							<div>
-								<img src='img/service4.jpg' alt='Сервисный центр' />
+								<a href='#'><img src='img/service4.jpg' alt='Сервисный центр' /></a>
 							</div>
 							<div>
 								<a href='#'>Заправка сплит-систем</a>
@@ -67,7 +67,7 @@
 						</div>
 						<div class='poluprom-item service-page'>
 							<div>
-								<img src='img/service5.jpg' alt='Сервисный центр' />
+								<a href='#'><img src='img/service5.jpg' alt='Сервисный центр' /></a>
 							</div>
 							<div>
 								<a href='#'>Демонтаж сплит-систем</a>

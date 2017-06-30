@@ -75,6 +75,15 @@
 .poluprom-item a:first-of-type{
 	font-size:24px;
 	font-family:'Arsenal',sans serif;
+	width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.cond a:first-of-type{
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .poluprom-item a:first-of-type:hover{

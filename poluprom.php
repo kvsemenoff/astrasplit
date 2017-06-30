@@ -15,8 +15,8 @@
 						нечитабельность рыбных текстов имеет особое значение, так как человеческое восприятие имеет 
 						особенность, распознавать определенные образцы и повторения.</p>
 						<div class='poluprom-item'>
-							<div>
-								<img src='img/poluprom1.jpg' alt='Полупром' />
+							<div class='cond'>
+								<a href='#'><img src='img/poluprom1.jpg' alt='Полупром' /></a>
 							</div>
 							<div>
 								<a href='#'>Напольно-потолочные кондиционеры</a>
@@ -27,8 +27,8 @@
 							</div>
 						</div>
 						<div class='poluprom-item'>
-							<div>
-								<img src='img/poluprom2.jpg' alt='Полупром' />
+							<div class='cond'>
+								<a href='#'><img src='img/poluprom2.jpg' alt='Полупром' /></a>
 							</div>
 							<div>
 								<a href='#'>Мульти сплит-системы</a>
@@ -37,8 +37,8 @@
 							</div>
 						</div>
 						<div class='poluprom-item'>
-							<div>
-								<img src='img/poluprom3.jpg' alt='Полупром' />
+							<div class='cond'>
+								<a href='#'><img src='img/poluprom3.jpg' alt='Полупром' /></a>
 							</div>
 							<div>
 								<a href='#'>Кассетные кондиционеры и сплит-системы</a>
