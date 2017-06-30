@@ -11,7 +11,7 @@ $a-c-a: #298fde;
     		//padding: 0 6px; 
     	}
     	a{
-    		font-size: 16px;
+    		font-size: 16pt;
     	}
     	.current{
     		cursor: default;
@@ -242,7 +242,7 @@ $a-c-a: #298fde;
 	margin-bottom: 30px;
 	table {
     border-collapse: separate;
-    border-spacing: 30px 0px;
+    border-spacing: 30px 0px;s
 }
 	.compare-td__p{
 		padding: 10px 0; 
@@ -253,9 +253,10 @@ $a-c-a: #298fde;
    }
 }
 .compare-table__name{
-	padding-left: 10px;
-	margin-top: -4px;
-	position: absolute;
+	vertical-align: middle;
+	p{
+		margin-left: 10px;
+	}
 
 }
 .nonecol{

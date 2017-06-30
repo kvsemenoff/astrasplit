@@ -23,7 +23,7 @@
             						<td><img src="img/cond-di.png" alt="Кондиционер" class="compare-content__img"></td>
             					</tr>
             					<tr>
-            						<td><p class="compare-table__name">Наименование</p></td>
+            						<td class="compare-table__name"><p >Наименование</p></td>
             						<td class="nonecol"><span class="compare-content__span">Сплит система ANTARKTIK MF07AC-CH</span></td>
             						<td class="nonecol"><span class="compare-content__span">Сплит система ANTARKTIK MF07AC-CH</span></td>
             						<td class="nonecol"><span class="compare-content__span">Сплит система ANTARKTIK MF07AC-CH</span></td>
