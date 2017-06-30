@@ -65,7 +65,13 @@
 												<div>
 													<img src="img/truck.jpg" alt="">
 												</div>
-												<a href="#"><span>Доставка</span></a>
+												<a href="#">
+													<span>Доставка</span>				
+												</a>
+												<span class="product__galery_hoverbox">
+													Доставка по городу составить столько-то рублей столько-то копеек и все такое в этом духе
+												</span>
+												
 											</div>
 											<div class="clearfix"></div>
 										</div>
@@ -308,55 +314,54 @@
 							<div class="col-md-12">
 								<h1 class="product_likewise__cap">С товаром также покупают</h1>
 								<div class="product_likewise__block">		
-									<div class="product_likewise__box">
-										<a href="#" class="product_likewise__img">
+									<a href="#" class="product_likewise__box">
+										<span class="product_likewise__img">
 											<img src="img/likewise1.jpg" alt="">
-										</a>
-										<a href="#" class="product_likewise__txt">
+										</span>
+										<span class="product_likewise__txt">
 											<span>Антибактериальный фильт (Bacteria-Killing Filter )</span>
-										</a>
-									</div>
-									<div class="product_likewise__box">
-										<a href="#" class="product_likewise__img">
+										</span>
+									</a>
+									<a href="#" class="product_likewise__box">
+										<span class="product_likewise__img">
 											<img src="img/likewise2.jpg" alt="">
-										</a>
-										<a href="#" class="product_likewise__txt">
+										</span>
+										<span class="product_likewise__txt">
 											<span>Нагреватель дренажа Ballu ND-700мм</span>
-										</a>
-									</div>
-									<div class="product_likewise__box">
-										<a href="#" class="product_likewise__img">
+										</span>
+									</a>
+									<a href="#" class="product_likewise__box">
+										<span class="product_likewise__img">
 											<img src="img/likewise3.jpg" alt="">
-										</a>
-										<a href="#" class="product_likewise__txt">
+										</span>
+										<span class="product_likewise__txt">
 											<span>Антибактериальный фильт (Bacteria-Killing Filter )</span>
-
-										</a>
-									</div>
-									<div class="product_likewise__box">
-										<a href="#" class="product_likewise__img">
+										</span>
+									</a>
+									<a href="#" class="product_likewise__box">
+										<span class="product_likewise__img">
 											<img src="img/likewise4.jpg" alt="">
-										</a>
-										<a href="#" class="product_likewise__txt">
+										</span>
+										<span class="product_likewise__txt">
 											<span>Антибактериальный фильт (Bacteria-Killing Filter )</span>
-										</a>
-									</div>
-									<div class="product_likewise__box">
-										<a href="#" class="product_likewise__img">
+										</span>
+									</a>
+									<a href="#" class="product_likewise__box">
+										<span class="product_likewise__img">
 											<img src="img/likewise4.jpg" alt="">
-										</a>
-										<a href="#" class="product_likewise__txt">
+										</span>
+										<span class="product_likewise__txt">
 											<span>Антибактериальный фильт (Bacteria-Killing Filter )</span>
-										</a>
-									</div>
-									<div class="product_likewise__box">
-										<a href="#" class="product_likewise__img">
+										</span>
+									</a>
+									<a href="#" class="product_likewise__box">
+										<span class="product_likewise__img">
 											<img src="img/likewise4.jpg" alt="">
-										</a>
-										<a href="#" class="product_likewise__txt">
+										</span>
+										<span class="product_likewise__txt">
 											<span>Антибактериальный фильт (Bacteria-Killing Filter )</span>
-										</a>
-									</div>
+										</span>
+									</a>
 								</div>
 							</div>
 						</div>
