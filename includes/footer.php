@@ -86,7 +86,7 @@
         <div class="row">
             <div class="col-md-6 col-xs-12">
                 <div class="df-di">
-                    <span><a href='#'>Политика</a> хранения и обработки персональных данных</span>
+                    <span>Политика хранения и обработки персональных данных</span>
                 </div>
             </div>
             <div class="col-md-6 col-xs-12">
