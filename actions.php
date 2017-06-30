@@ -19,10 +19,9 @@
 						<div class="somePad"></div>
 						<div class="act__block">
 							<div class="col-md-3">
-								<img src="img/act1.png" alt="">
+								<a href=""><img src="img/act1.png" alt=""></a>
 							</div>
 							<div class="col-md-9">
-
 								<span class="date-di">20.06.2017</span><br>
 								<span class="topic-di">Мы предоставляем скидку всем покупателям</span><br>
 								<a href='#' class='button button_tranparent'>подробнее</a>
@@ -31,10 +30,9 @@
 						<div class="clearfix"></div>
 						<div class="act__block">
 							<div class="col-md-3">
-								<img src="img/act2.png" alt="">
+								<a href=""><img src="img/act2.png" alt=""></a>
 							</div>
 							<div class="col-md-9">
-
 								<span class="date-di">20.06.2017</span><br>
 								<span class="topic-di">Только до 20 июля у нас действует специальное предложение</span><br>
 								<a href='#' class='button button_tranparent'>подробнее</a>
@@ -43,7 +41,7 @@
 						<div class="clearfix"></div>
 						<div class="act__block">
 							<div class="col-md-3">
-								<img src="img/act3.png" alt="">
+								<a href=""><img src="img/act3.png" alt=""></a>
 							</div>
 							<div class="col-md-9">
 								<span class="date-di">20.06.2017</span><br>

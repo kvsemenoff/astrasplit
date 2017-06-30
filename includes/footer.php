@@ -49,26 +49,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 f-md-di">
-                    <span class=" upspan-di">Компания Астра Сплит</span>
-                    <div class="f-somet-di">
-							<span>Компания на протяжении уже 10 лет занимается
-						</div>
-						
-						<div class="mail-di">
-							<img src="img/f-email-di.png" alt="email" class="f-email-di">
-							<div class="content-part">
-							<a href="mailto:seregabrt@mail.ru">seregabrt@mail.ru</a>
-							</div>
-						</div>
-						<div class="pointer-di">
-							<img src="img/f-pointer-di.png" alt="pointer" class="f-pointer-di">
-							<div class="wrap-pointer-di">
-								<a href="">г. Астрахань, ул. Зеленая 1, корп. 1</a>
-							</div>
-						</div>
-					</div>
-					</div>
 					<div class="col-md-4 f-md-di">
 						<span class=" upspan-di">Компания Астра Сплит</span>
 						<div class="f-somet-di">
