@@ -550,6 +550,9 @@ textarea.contacts_textarea {
   margin-bottom: 18px; }
 
 /* Slider */
+.main_slider {
+  margin-bottom: 45px; }
+
 .slider_item {
   width: 100%;
   background-size: cover;
