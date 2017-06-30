@@ -238,9 +238,12 @@ $a-c-a: #298fde;
 	width: 260px;
 }
 .compare-content__table{
-	td{
-		padding: 0 15px; 
-	}
+	margin-top: -30px;
+	margin-bottom: 30px;
+	table {
+    border-collapse: separate;
+    border-spacing: 30px 0px;
+}
 	.compare-td__p{
 		padding: 10px 0; 
 		margin-left: 10px;
@@ -248,4 +251,13 @@ $a-c-a: #298fde;
 	tr:nth-child(2n) {
     background: #faf8e5;
    }
+}
+.compare-table__name{
+	padding-left: 10px;
+	margin-top: -4px;
+	position: absolute;
+
+}
+.nonecol{
+	background-color: #fff !important; 
 }
