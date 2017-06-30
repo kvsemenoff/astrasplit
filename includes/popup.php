@@ -48,7 +48,7 @@
 			<p class='input-title'>Укажите цену, которая вас устроит,</br>и мы рассмотрим ваше предложение <span>*</span></p>
 			<input type="text" name='discount' placeholder="0.00">
 			<p class='input-title'>Вероятность успеха предложения</p>
-			<img src='../img/grad.png' width='100%'/>
+			<img src='../img/grad.png' alt='Градиент' />
 			<p class='nes-input'><span>*</span> —  В заказе может быть только один товар по цене с персональной скидкой. </p>
 			<div>
 				<input type='submit' class='button button_blue' value='Сделать предложение'>

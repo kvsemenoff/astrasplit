@@ -1,8 +1,5 @@
 <!doctype html>
 <html lang="ru">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Полупромышленные спилит-системы</title>
 	<?php require_once('includes/header.php'); ?>
 <body>
@@ -19,7 +16,7 @@
 						особенность, распознавать определенные образцы и повторения.</p>
 						<div class='poluprom-item'>
 							<div>
-								<img src='img/poluprom1.jpg'/>
+								<img src='img/poluprom1.jpg' alt='Полупром' />
 							</div>
 							<div>
 								<a href='#'>Напольно-потолочные кондиционеры</a>
@@ -31,7 +28,7 @@
 						</div>
 						<div class='poluprom-item'>
 							<div>
-								<img src='img/poluprom2.jpg'/>
+								<img src='img/poluprom2.jpg' alt='Полупром' />
 							</div>
 							<div>
 								<a href='#'>Мульти сплит-системы</a>
@@ -41,7 +38,7 @@
 						</div>
 						<div class='poluprom-item'>
 							<div>
-								<img src='img/poluprom3.jpg'/>
+								<img src='img/poluprom3.jpg' alt='Полупром' />
 							</div>
 							<div>
 								<a href='#'>Кассетные кондиционеры и сплит-системы</a>
@@ -58,7 +55,7 @@
 							<h3>СПЛИТ СИСТЕМ  КОНДИЦИОНЕРОВ</h3>
 						</div>
 						<div class='split-catalog-sidebar2'>
-							<h3>БЫСТРАЯ  ДОСТАВКА  </br> И УСТАНОВКА</h3>
+							<h3>БЫСТРАЯ  ДОСТАВКА  <br /> И УСТАНОВКА</h3>
 						</div>
 					</div>
 					<div class="clearfix"></div>
