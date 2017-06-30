@@ -35,6 +35,8 @@
 	float:left;
 	margin:20px 0;
 	min-height:225px;
+	transition:0.5s;
+	-webkit-transition:0.5s;
 }
 
 .poluprom-item div:first-of-type{
@@ -77,6 +79,12 @@
 
 .poluprom-item a:first-of-type:hover{
 	text-decoration:underline;
+}
+
+.poluprom-item:hover{
+	-webkit-box-shadow: 0px 0px 37px -4px rgba(0, 0, 0, 0.61);
+    -moz-box-shadow: 0px 0px 37px -4px rgba(0, 0, 0, 0.61);
+    box-shadow: 0px 0px 37px -4px rgba(0, 0, 0, 0.61);
 }
 
 .poluprom-item p{
