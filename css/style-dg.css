@@ -556,7 +556,7 @@ textarea.contacts_textarea {
 /* Slider */
 .slider_item {
   width: 100%;
-  background-size: cover;
+  background-size: cover !important;
   height: 430px; }
 
 .slider_item1 {
