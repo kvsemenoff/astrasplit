@@ -56,12 +56,12 @@
                                 </div>
                             </div>
                             <div class="contacts_form-body clearfix">
-                                <form action="/" method="post">
+                                <form name="contact_form">
                                     <label for="contacts_phone" class="contacts_label">Телефон</label>
-                                    <input id="contacts_phone" type="text" class="contacts_input contacts_phone js-phone" required>
+                                    <input id="contacts_phone" name="phone" type="tel" class="contacts_input contacts_phone js-phone" required>
                                     <label for="contacts_name" class="contacts_label">Ваше имя</label>
-                                    <input id="contacts_name" type="text" class="contacts_input contacts_name" required>
-                                    <textarea class="contacts_textarea" placeholder="Сообщение"></textarea>
+                                    <input id="contacts_name" name="uname" type="text" class="contacts_input contacts_name" required>
+                                    <textarea name="text" class="contacts_textarea" placeholder="Сообщение"></textarea>
                                     <div class="contacts_form__descr">
                                         Заполняя форму, вы соглашаетесь с <a href="#">политикой
                                             хранения и обработки ваших персональных данных</a>

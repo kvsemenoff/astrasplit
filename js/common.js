@@ -14,8 +14,20 @@ $(document).ready(function(){
 			   });
 			 return false;
 		});
+    $("form[name='contact_form']").submit(function() {
+        $data = $(this).serialize();
+        $.ajax({
+            type: "POST",
+            url: "../sendmessage.php",
+            data: $data,
+            success: function() {
+                cleanTnanks(this);
+            }
+        });
+        return false;
+    });
 		 function cleanTnanks(form){
-		  $('form').parent().parent().hide();
+		  $("form[name='popup_form']").parent().parent().hide();
 		  $("input[type=text]").val("");
 		  $("input[type=tel]").val("");
 		  $("textarea").val("");
