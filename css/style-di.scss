@@ -206,3 +206,46 @@ $a-c-a: #298fde;
 		font-family: $ff;  
 	}
 }
+
+/* Compare */
+.compare-header__h1{
+	margin-top: 30px;
+}
+.compare-content__img{
+	width: 100%;
+	height: auto; 
+	margin-top: 50px;
+	padding-bottom: 27px;
+}
+.compare-content__span{
+	font-family: $fa;
+	font-size: 16px;  
+}
+.compare-content__p{
+	float: right;
+	font-size: 18px;
+	font-weight: 900;
+	margin-top: 0px; 
+}
+.compare-content__button{
+	padding: 20px 0 50px 0;
+}
+.compare-content__a{
+	text-align: center;
+	width: 100%;
+}
+.compare-content__first{
+	width: 260px;
+}
+.compare-content__table{
+	td{
+		padding: 0 15px; 
+	}
+	.compare-td__p{
+		padding: 10px 0; 
+		margin-left: 10px;
+	}
+	tr:nth-child(2n) {
+    background: #faf8e5;
+   }
+}
