@@ -504,8 +504,10 @@ textarea.contacts_textarea {
   margin-bottom: 22px;
   color: #333333; }
   .contacts_form__descr a {
-    color: #298fde;
-    text-decoration: underline; }
+    text-decoration: none;
+    color: #298fde; }
+    .contacts_form__descr a:hover {
+      text-decoration: underline; }
 
 .contacts_necessary {
   color: #666;

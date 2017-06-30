@@ -543,8 +543,11 @@ textarea.contacts_textarea {
   margin-bottom: 22px;
   color: #333333;
   a {
+    text-decoration: none;
     color: #298fde;
-    text-decoration: underline;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 .contacts_necessary {
