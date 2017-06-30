@@ -396,12 +396,71 @@
 	}
 }
 
-.product__galery_saleimg{
+.product__galery_sale-block{
 	width: 100%;
 	margin-bottom: 15px;
-	img{
-		max-width: 100%;
-		height: auto;
+	background-image: linear-gradient(to top, #d7d7d7 0%, #e5e3e3 0%, white 100%);
+	border: 1px solid #d5d5d5;
+	font-family: "ArialRegular";
+	.product__galery_sale-left{
+		background: url("../img/bgsale.png")no-repeat top left;
+		background-size: 120%;
+		width: 100%;
+		display: inline-block;
+		padding: 17px 0 10px 35px;
+		@media only screen and (min-width :1200px) {
+			background-size: cover;
+			max-width: 282px;	
+		}	
+		h4{
+			color: #fce21c;
+			font-size: 42px;
+			font-weight: 700;
+			line-height: 18px;
+			font-family: "ArialBold";		
+			margin-bottom: 2px;	
+		}
+		span{
+			color: white;
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 28px;
+			display: inline-block;
+			b{
+				color: white;
+				font-size: 24px;
+				font-weight: 700;
+				line-height: 28px;
+				text-decoration: line-through;				
+			}
+		}
+	}
+	.product__galery_sale-right{		
+		width: 100%;
+		padding: 30px 0 20px 72px;
+		display: inline-block;
+		vertical-align: top;
+		background: url("../img/pigbank.png") no-repeat 5px 12px;
+		@media only screen and (min-width : 1200px) {
+			width: 45%;
+			padding: 30px 0 0px 72px;
+		}
+		
+		span{
+			color: #e9362d;
+			font-family: 'Arsenal', sans-serif; 
+			font-size: 22px;
+			line-height: 28px;
+			text-transform: uppercase;
+			display: block;
+		}
+		b{
+			font-family: "ArialBold";	
+			color: #333;
+			font-family: Arial;
+			font-size: 24px;
+			line-height: 30px;		
+		}
 	}
 }
 

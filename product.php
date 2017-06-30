@@ -51,8 +51,19 @@
 											<h4>БОЛЬШИЕ СКИДКИ : </h4>
 											<b>Мы заморозили цены на сплит системы.</b>
 										</div>
-										<div class="product__galery_saleimg">
-											<img src="img/saleimg.jpg" alt="">
+										<div class="product__galery_sale-block">
+											<div class="product__galery_sale-left">
+												<h4>28 750 <i class="fa fa-rub" aria-hidden="true"></i></h4>
+												<span>
+													старая цена: 
+													<b>35 990<i class="fa fa-rub" aria-hidden="true"></i>
+													</b>
+												</span>
+											</div>
+											<div class="product__galery_sale-right">
+												<span>Вы экономите: </span>
+												<b>7 240<i class="fa fa-rub" aria-hidden="true"></i></b>
+											</div>
 										</div>
 										<div class="product__galery_howpaybox">
 											<div class="product__galery_howpay">
