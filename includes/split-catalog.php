@@ -1,3 +1,4 @@
+<div class='container'>
 	<div class='split-catalog'>
 		<div class='split-catalog-left'>
 			<h1>Каталог сплит-систем и кондиционеров</h1>
@@ -102,3 +103,4 @@
 			</div>
 		</div>
 	</div>
+</div>
